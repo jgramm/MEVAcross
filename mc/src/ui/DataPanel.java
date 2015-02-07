@@ -2,20 +2,42 @@ package ui;
 
 import java.io.*;
 import java.util.LinkedHashMap;
-
 import javax.swing.*;
-
+import java.awt.Dimension;
 import java.awt.dnd.*;
+import actions.RunMevaAction;
 
 import ui.CustomDataTable;
 
-public class DataPanel {
+public class DataPanel extends JPanel{
 
 	private static final long serialVersionUID = -338371323663965906L;
 	public static CustomDataTable dataTable = new CustomDataTable(new DataTableModel());
 	
 	public DataPanel(){
-		new DropTarget(dataTable, new DataPanelDNDListener());
+		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
+		
+		new DropTarget(this, new DataPanelDNDListener());
+		
+		load("C:/Users/James/workspace/MEVA/SIRT3_MEFs_FC.txt");
+		
+		JScrollPane scrollPane = new JScrollPane(dataTable);
+		
+		JPanel buttonPanel = new JPanel();
+		buttonPanel.setMaximumSize(new Dimension(Integer.MAX_VALUE, buttonPanel.getMinimumSize().height));
+		
+		JButton runAnalysis = new JButton("Run Analysis");
+		runAnalysis.addActionListener(new RunMevaAction());
+
+		
+		buttonPanel.add(runAnalysis);
+		
+		add(buttonPanel);
+		add(scrollPane);
+		
+		dataTable.setColumnSelectionAllowed(true);
+		
+		
 	}
 	
 	public static void load(String fileName){

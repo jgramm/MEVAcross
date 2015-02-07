@@ -108,9 +108,9 @@ public class DataReader {
 			System.out.println("Null input stream in data reader!4");
 		}
 		
-		InputStreamReader isr = new InputStreamReader(is);
-		BufferedReader file = new BufferedReader(isr);
-		
+		//InputStreamReader isr = new InputStreamReader(is);
+		//BufferedReader file = new BufferedReader(isr);
+		BufferedReader file = new BufferedReader(new FileReader(new File("C:/Users/James/Desktop/mc/resources/mastermapping.txt")));
 		
 		
 		

@@ -1,6 +1,7 @@
 package actions;
 
 import ui.DataPanel;
+import ui.PathwayPanel;
 import algorithm.*;
 
 import java.awt.event.*;
@@ -28,14 +29,13 @@ public class RunMevaAction implements ActionListener{
 		DataStorage.iterations = 1001;
 		try {
 			analysis = RunMEVAColumn.run(data, "ADD A SAMPLE NAME IN RunMevaAction");
+			PathwayPanel.acceptPathways(analysis);
 		} catch (IOException ex) {
 			// TODO Auto-generated catch block
 			
 			ex.printStackTrace();
 		}
 	
-		System.out.println();
-		throw new RuntimeException("DO SOMETHING WITH MEVA ANALYSIS!!!");
 		
 	}
 	

@@ -12,10 +12,15 @@ public class Home extends JFrame{
 
 	Container mainPane;
 	public DataPanel dp;
+	public PathwayPanel pp;
 	public CustomDataTable dataTable;
 	public CustomDataTable pathwayTable;
+	public JPanel drawPanel;
 	JTabbedPane tp;
 	
+	/**
+	 * 
+	 */
 	public Home(){
 		setTitle("MEVA Intrapathway Comparison");
 		setSize(1600, 1000);
@@ -23,20 +28,12 @@ public class Home extends JFrame{
 		setDefaultCloseOperation(EXIT_ON_CLOSE);        
     
 		dp = new DataPanel();
+		pp = new PathwayPanel();
 		dataTable = DataPanel.dataTable;
 		
-		dataTable.setPreferredScrollableViewportSize(new Dimension(500, 70));
-		dataTable.setFillsViewportHeight(true);
-		//Create the scroll pane and add the table to it.
-		JScrollPane dataScrollPane = new JScrollPane(dataTable);
-		JScrollPane pathwayScrollPane = new JScrollPane(dataTable);
 		
 		
-		JPanel buttonPanel = new JPanel();
-		JButton runAnalysis = new JButton("Run Analysis");
 		
-		runAnalysis.addActionListener(new RunMevaAction());
-
 		/*
         JButton highlightSelectedHMDBs = new JButton("Highlight selected nodes");
 		highlightSelectedHMDBs.addActionListener(new HighlightNodesAction());
@@ -65,8 +62,12 @@ public class Home extends JFrame{
         //Add the scroll pane to this panel.
 		mainPane = getContentPane();
 		tp = new JTabbedPane();
-		tp.addTab("Data Table", dataScrollPane);
-		tp.addTab("Pathway Table", pathwayScrollPane);
+		tp.addTab("Data Table", dp);
+		tp.addTab("Pathway Table", pp);
+		drawPanel = new JPanel();
+		drawPanel.setMinimumSize(new Dimension(Integer.MAX_VALUE, 400));
+		
+		add(drawPanel);
 		add(tp);
 		
 	}
