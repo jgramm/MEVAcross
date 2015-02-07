@@ -1,0 +1,72 @@
+package algorithm;
+//
+//                                                                                  
+//                                                                                  
+//                                                                            *     
+//   ******    *******     ***     ******             ***   ***  *******      *     
+//    *    *    *           **      *    *             **   **    *    *      *     
+//    *    *    *          *  *     *     *            * * * *    *    *      *     
+//    *    *    *          *  *     *     *            * * * *    *  *        *     
+//    *****     *****      *  *     *     *            * * * *    ****        *     
+//    *  *      *         ******    *     *            *  *  *    *  *        *     
+//    *   *     *         *    *    *     *            *     *    *    *            
+//    *    *    *        *      *   *    *             *     *    *    *     ***    
+//   ***   **  *******  ***    *** ******             ***   ***  *******     ***    
+//                                                                                  
+//                                                                                  
+//                                                                                  
+//                                                                                  
+//                                                                                  
+//                                                                                  
+
+
+
+// This should provide you with the necessary information to run this program as of 10/16/2012
+
+
+
+// Make your own runner for doing batch files. The LevineRunner is a good example 
+
+
+// The primary entry to the code is in the RunMEVAColumn file. This will run a single sample of data. The 
+// RunMEVAFile and ShubasRunner files may provide the ability to run an entire file of data, but those have
+// not been maintained in a while (currently 12/14/2012)
+
+
+// The AllData class that I used before to store information such as FDR, iterations number, etc, has been 
+// refactored into a class called DataStorage. This class only stores data from one sample at a time,
+// which should hopefully cut down on memory consumption by the file. Additionally, this stresses the idea
+// that only one sample should be run at a time (currently 12/14/2012).
+
+
+// The enrichment score class calculates the enrichment score (ES). The first enrichment method calculates
+// the ES as well as the leading edge subset with it. The second does the same thing without the leading
+// edge subset, so it is a lot faster/requires less memory.
+
+
+// The null distribution class builds a null distribution based on the sample data. It is pretty straight
+// forward, but as of 10/16/2012, you should always call nd.distribute() followed by nd.putNES(score) to
+// store the normalized enrichment score (NES) in the AllData class.
+
+
+// The significance class is pretty simple. As of 10/16/2012, it will place the score inside the distribution
+// take the index, and determine the fraction of scores that are higher or lower than it (depending on
+// which fraction is smaller)
+
+
+// The hashsorter class provides a sort-by-value and shuffle method for the linkedhashmap class. the sort 
+// method takes an int which will reverse the sorting for a value of 1.
+
+
+// The reader and writer classes have a ton of methods that I am constantly rewriting and then erasing. Your
+// best bet is to use whatever is currently used in the main method, or write your own code if that doesn't
+// help.
+
+
+// The caseless string list class is just a list wrapper which forces equality to ignore case (necessary for
+// comparing different id's).
+
+
+//
+
+//

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://genmapp.org/GPML/2010a" Name="Aldosterone-regulated sodium reabsorption" Data-Source="http://www.genome.jp/kegg-bin/show_pathway?hsa04960" Organism="Homo sapiens">
+  <Attribute Key="ConversionDate" Value="20110521"/>
+  <Attribute Key="KeggId" Value="path:hsa04960"/>
+  <Graphics BoardWidth="1400.0" BoardHeight="1372.0"/>
+  <DataNode TextLabel="Sodium" GraphId="d14ef" Type="Metabolite">
+    <Graphics CenterX="214.0" CenterY="1058.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01330"/>
+  </DataNode>
+  <DataNode TextLabel="SCNN1A" GraphId="d8ffc" Type="GeneProduct" GroupRef="b0327">
+    <Comment Source="KeggConverter">Original kegg element: gene;3;hsa:6337 hsa:6338 hsa:6340</Comment>
+    <Graphics CenterX="316.0" CenterY="1060.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6337"/>
+  </DataNode>
+  <DataNode TextLabel="SCNN1B" GraphId="ed741" Type="GeneProduct" GroupRef="b0327">
+    <Comment Source="KeggConverter">Original kegg element: gene;3;hsa:6337 hsa:6338 hsa:6340</Comment>
+    <Graphics CenterX="316.0" CenterY="1040.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6338"/>
+  </DataNode>
+  <DataNode TextLabel="SCNN1G" GraphId="f3875" Type="GeneProduct" GroupRef="b0327">
+    <Comment Source="KeggConverter">Original kegg element: gene;3;hsa:6337 hsa:6338 hsa:6340</Comment>
+    <Graphics CenterX="316.0" CenterY="1080.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6340"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1B4" GraphId="a475d" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1136.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="23439"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1A1" GraphId="b925b" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1116.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="476"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1A2" GraphId="ea768" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1156.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="477"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1A3" GraphId="e0513" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1096.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="478"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1A4" GraphId="d622c" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1176.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="480"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1B1" GraphId="c2d92" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1076.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="481"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1B2" GraphId="c47dc" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1196.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="482"/>
+  </DataNode>
+  <DataNode TextLabel="ATP1B3" GraphId="ff186" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1056.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="483"/>
+  </DataNode>
+  <DataNode TextLabel="FXYD2" GraphId="b3f00" Type="GeneProduct" GroupRef="d23e2">
+    <Comment Source="KeggConverter">Original kegg element: gene;4;hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486</Comment>
+    <Graphics CenterX="1164.0" CenterY="1216.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="486"/>
+  </DataNode>
+  <DataNode TextLabel="SGK1" GraphId="c47f1" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;5;hsa:6446</Comment>
+    <Graphics CenterX="588.0" CenterY="996.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6446"/>
+  </DataNode>
+  <DataNode TextLabel="Aldosterone" GraphId="ea86c" Type="Metabolite">
+    <Graphics CenterX="1298.0" CenterY="722.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01780"/>
+  </DataNode>
+  <DataNode TextLabel="Ubiquitin mediated proteolysis" GraphId="a9a67" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;7;path:hsa04120</Comment>
+    <Graphics CenterX="668.0" CenterY="1326.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa04120"/>
+  </DataNode>
+  <DataNode TextLabel="NR3C2" GraphId="a0080" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;8;hsa:4306</Comment>
+    <Graphics CenterX="1032.0" CenterY="714.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4306"/>
+  </DataNode>
+  <DataNode TextLabel="KRAS" GraphId="cec51" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;9;hsa:3845</Comment>
+    <Graphics CenterX="930.0" CenterY="1070.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3845"/>
+  </DataNode>
+  <DataNode TextLabel="NEDD4L" GraphId="adf70" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;10;hsa:23327</Comment>
+    <Graphics CenterX="482.0" CenterY="1162.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="23327"/>
+  </DataNode>
+  <DataNode TextLabel="Potassium" GraphId="dd357" Type="Metabolite">
+    <Graphics CenterX="1028.0" CenterY="1122.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00238"/>
+  </DataNode>
+  <DataNode TextLabel="Sodium" GraphId="b1384" Type="Metabolite">
+    <Graphics CenterX="1306.0" CenterY="1140.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01330"/>
+  </DataNode>
+  <DataNode TextLabel="FXYD4" GraphId="f9f66" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;13;hsa:53828</Comment>
+    <Graphics CenterX="1164.0" CenterY="1050.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="53828"/>
+  </DataNode>
+  <DataNode TextLabel="Cortisol" GraphId="fb25c" Type="Metabolite">
+    <Graphics CenterX="1288.0" CenterY="582.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00735"/>
+  </DataNode>
+  <DataNode TextLabel="Cortisone" GraphId="dc775" Type="Metabolite">
+    <Graphics CenterX="936.0" CenterY="584.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00762"/>
+  </DataNode>
+  <DataNode TextLabel="HSD11B1" GraphId="e6aae" Type="GeneProduct" GroupRef="d7911">
+    <Comment Source="KeggConverter">Original kegg element: gene;16;hsa:3290 hsa:3291</Comment>
+    <Graphics CenterX="1058.0" CenterY="556.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3290"/>
+  </DataNode>
+  <DataNode TextLabel="HSD11B2" GraphId="ac469" Type="GeneProduct" GroupRef="d7911">
+    <Comment Source="KeggConverter">Original kegg element: gene;16;hsa:3290 hsa:3291</Comment>
+    <Graphics CenterX="1058.0" CenterY="536.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3291"/>
+  </DataNode>
+  <DataNode TextLabel="Steroid hormone biosynthesis" GraphId="e7ac3" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;17;path:hsa00140</Comment>
+    <Graphics CenterX="756.0" CenterY="568.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00140"/>
+  </DataNode>
+  <DataNode TextLabel="INSR" GraphId="b437d" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;18;hsa:3643</Comment>
+    <Graphics CenterX="1164.0" CenterY="1304.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3643"/>
+  </DataNode>
+  <DataNode TextLabel="IRS1" GraphId="a49a2" Type="GeneProduct" GroupRef="bf028">
+    <Comment Source="KeggConverter">Original kegg element: gene;19;hsa:3667 hsa:8471 hsa:8660</Comment>
+    <Graphics CenterX="972.0" CenterY="1300.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3667"/>
+  </DataNode>
+  <DataNode TextLabel="IRS4" GraphId="dbb63" Type="GeneProduct" GroupRef="bf028">
+    <Comment Source="KeggConverter">Original kegg element: gene;19;hsa:3667 hsa:8471 hsa:8660</Comment>
+    <Graphics CenterX="972.0" CenterY="1280.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8471"/>
+  </DataNode>
+  <DataNode TextLabel="IRS2" GraphId="a28bd" Type="GeneProduct" GroupRef="bf028">
+    <Comment Source="KeggConverter">Original kegg element: gene;19;hsa:3667 hsa:8471 hsa:8660</Comment>
+    <Graphics CenterX="972.0" CenterY="1320.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8660"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3R5" GraphId="e6ea3" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1228.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="23533"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3CA" GraphId="f438c" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1208.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5290"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3CB" GraphId="bcc3c" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1248.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5291"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3CD" GraphId="f12dc" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1188.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5293"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3CG" GraphId="f5545" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1268.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5294"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3R1" GraphId="c62d4" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1168.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5295"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3R2" GraphId="edd55" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1288.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5296"/>
+  </DataNode>
+  <DataNode TextLabel="PIK3R3" GraphId="f34ae" Type="GeneProduct" GroupRef="ef527">
+    <Comment Source="KeggConverter">Original kegg element: gene;20;hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503</Comment>
+    <Graphics CenterX="832.0" CenterY="1148.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8503"/>
+  </DataNode>
+  <DataNode TextLabel="PDPK1" GraphId="ccd4d" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;21;hsa:5170</Comment>
+    <Graphics CenterX="674.0" CenterY="1092.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5170"/>
+  </DataNode>
+  <DataNode TextLabel="INS" GraphId="cf5d7" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;22;hsa:3630</Comment>
+    <Graphics CenterX="1328.0" CenterY="1272.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3630"/>
+  </DataNode>
+  <DataNode TextLabel="Phosphatidylinositol-3,4,5-trisphosphate" GraphId="dd7e0" Type="Metabolite">
+    <Graphics CenterX="768.0" CenterY="1152.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05981"/>
+  </DataNode>
+  <DataNode TextLabel="Tight junction" GraphId="c38fd" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;24;path:hsa04530</Comment>
+    <Graphics CenterX="504.0" CenterY="234.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa04530"/>
+  </DataNode>
+  <DataNode TextLabel="Cl-" GraphId="de11c" Type="Metabolite">
+    <Graphics CenterX="246.0" CenterY="372.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00698"/>
+  </DataNode>
+  <DataNode TextLabel="IGF1" GraphId="ac829" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;26;hsa:3479</Comment>
+    <Graphics CenterX="1330.0" CenterY="1332.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3479"/>
+  </DataNode>
+  <DataNode TextLabel="KCNJ1" GraphId="b0c26" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;27;hsa:3758</Comment>
+    <Graphics CenterX="314.0" CenterY="782.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="3758"/>
+  </DataNode>
+  <DataNode TextLabel="Potassium" GraphId="dffc1" Type="Metabolite">
+    <Graphics CenterX="448.0" CenterY="782.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00238"/>
+  </DataNode>
+  <DataNode TextLabel="SFN" GraphId="c6085" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;29;hsa:2810</Comment>
+    <Graphics CenterX="612.0" CenterY="1162.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2810"/>
+  </DataNode>
+  <DataNode TextLabel="3',5'-Cyclic AMP" GraphId="d06a7" Type="Metabolite">
+    <Graphics CenterX="1016.0" CenterY="850.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00575"/>
+  </DataNode>
+  <DataNode TextLabel="MAPK1" GraphId="d08d6" Type="GeneProduct" GroupRef="b853a">
+    <Comment Source="KeggConverter">Original kegg element: gene;31;hsa:5594 hsa:5595</Comment>
+    <Graphics CenterX="1068.0" CenterY="916.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5594"/>
+  </DataNode>
+  <DataNode TextLabel="MAPK3" GraphId="fee7a" Type="GeneProduct" GroupRef="b853a">
+    <Comment Source="KeggConverter">Original kegg element: gene;31;hsa:5594 hsa:5595</Comment>
+    <Graphics CenterX="1068.0" CenterY="896.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5595"/>
+  </DataNode>
+  <DataNode TextLabel="PRKCA" GraphId="a321c" Type="GeneProduct" GroupRef="e11c1">
+    <Comment Source="KeggConverter">Original kegg element: gene;32;hsa:5578 hsa:5579 hsa:5582</Comment>
+    <Graphics CenterX="1008.0" CenterY="808.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5578"/>
+  </DataNode>
+  <DataNode TextLabel="PRKCB" GraphId="a2bf6" Type="GeneProduct" GroupRef="e11c1">
+    <Comment Source="KeggConverter">Original kegg element: gene;32;hsa:5578 hsa:5579 hsa:5582</Comment>
+    <Graphics CenterX="1008.0" CenterY="788.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5579"/>
+  </DataNode>
+  <DataNode TextLabel="PRKCG" GraphId="fd32d" Type="GeneProduct" GroupRef="e11c1">
+    <Comment Source="KeggConverter">Original kegg element: gene;32;hsa:5578 hsa:5579 hsa:5582</Comment>
+    <Graphics CenterX="1008.0" CenterY="828.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5582"/>
+  </DataNode>
+  <DataNode TextLabel="SLC9A3R2" GraphId="f72d4" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;33;hsa:9351</Comment>
+    <Graphics CenterX="316.0" CenterY="830.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="9351"/>
+  </DataNode>
+  <Line GraphId="fed6e">
+    <Comment Source="KeggConverter">PCrel;14;15</Comment>
+    <Comment Source="KeggConverter">state change; ...</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1248.0" Y="582.0" GraphRef="fb25c" RelX="-1.0" RelY="0.0"/>
+      <Point X="976.0" Y="584.0" GraphRef="dc775" RelX="1.0" RelY="0.0"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e9b06">
+    <Comment Source="KeggConverter">PCrel;14;8</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1248.0" Y="582.0" GraphRef="fb25c" RelX="-1.0" RelY="0.0"/>
+      <Point X="1032.0" Y="704.0" GraphRef="a0080" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bd363">
+    <Comment Source="KeggConverter">PCrel;6;8</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1258.0" Y="722.0" GraphRef="ea86c" RelX="-1.0" RelY="0.0"/>
+      <Point X="1072.0" Y="714.0" GraphRef="a0080" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="eef0b">
+    <Comment Source="KeggConverter">GErel;8;3</Comment>
+    <Comment Source="KeggConverter">expression; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="992.0" Y="714.0" GraphRef="a0080" RelX="-1.0" RelY="0.0"/>
+      <Point X="364.0" Y="1060.0" GraphRef="c67e2" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b1d4d">
+    <Comment Source="KeggConverter">GErel;8;5</Comment>
+    <Comment Source="KeggConverter">expression; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="992.0" Y="714.0" GraphRef="a0080" RelX="-1.0" RelY="0.0"/>
+      <Point X="588.0" Y="986.0" GraphRef="c47f1" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="eb0fb">
+    <Comment Source="KeggConverter">GErel;8;9</Comment>
+    <Comment Source="KeggConverter">expression; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="992.0" Y="714.0" GraphRef="a0080" RelX="-1.0" RelY="0.0"/>
+      <Point X="930.0" Y="1060.0" GraphRef="cec51" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b8582">
+    <Comment Source="KeggConverter">GErel;8;13</Comment>
+    <Comment Source="KeggConverter">expression; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1032.0" Y="724.0" GraphRef="a0080" RelX="0.0" RelY="1.0"/>
+      <Point X="1124.0" Y="1050.0" GraphRef="f9f66" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ce737">
+    <Comment Source="KeggConverter">GErel;8;4</Comment>
+    <Comment Source="KeggConverter">expression; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1032.0" Y="724.0" GraphRef="a0080" RelX="0.0" RelY="1.0"/>
+      <Point X="1164.0" Y="1038.0" GraphRef="f2ef4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b29dd">
+    <Comment Source="KeggConverter">PPrel;22;18</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1288.0" Y="1272.0" GraphRef="cf5d7" RelX="-1.0" RelY="0.0"/>
+      <Point X="1204.0" Y="1304.0" GraphRef="b437d" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ef229">
+    <Comment Source="KeggConverter">PPrel;26;18</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1290.0" Y="1332.0" GraphRef="ac829" RelX="-1.0" RelY="0.0"/>
+      <Point X="1204.0" Y="1304.0" GraphRef="b437d" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c5ed3">
+    <Comment Source="KeggConverter">PPrel;18;19</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="1124.0" Y="1304.0" GraphRef="b437d" RelX="-1.0" RelY="0.0"/>
+      <Point X="1020.0" Y="1300.0" GraphRef="fc173" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b79c9">
+    <Comment Source="KeggConverter">PPrel;19;20</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="924.0" Y="1300.0" GraphRef="fc173" RelX="-1.0" RelY="0.0"/>
+      <Point X="880.0" Y="1218.0" GraphRef="ed957" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f136c">
+    <Comment Source="KeggConverter">PCrel;20;23</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="832.0" Y="1130.0" GraphRef="ed957" RelX="0.0" RelY="-1.0"/>
+      <Point X="768.0" Y="1162.0" GraphRef="dd7e0" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d8810">
+    <Comment Source="KeggConverter">PCrel;23;21</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="728.0" Y="1152.0" GraphRef="dd7e0" RelX="-1.0" RelY="0.0"/>
+      <Point X="674.0" Y="1102.0" GraphRef="ccd4d" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d1612">
+    <Comment Source="KeggConverter">PPrel;21;5</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="634.0" Y="1092.0" GraphRef="ccd4d" RelX="-1.0" RelY="0.0"/>
+      <Point X="588.0" Y="1006.0" GraphRef="c47f1" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c96b5">
+    <Comment Source="KeggConverter">PPrel;5;27</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="548.0" Y="996.0" GraphRef="c47f1" RelX="-1.0" RelY="0.0"/>
+      <Point X="314.0" Y="792.0" GraphRef="b0c26" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a71c5">
+    <Comment Source="KeggConverter">PPrel;5;10</Comment>
+    <Comment Source="KeggConverter">inhibition; --|</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="548.0" Y="996.0" GraphRef="c47f1" RelX="-1.0" RelY="0.0"/>
+      <Point X="482.0" Y="1152.0" GraphRef="adf70" RelX="0.0" RelY="-1.0" ArrowHead="TBar"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fd998">
+    <Comment Source="KeggConverter">PPrel;10;3</Comment>
+    <Comment Source="KeggConverter">ubiquination; </Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="442.0" Y="1162.0" GraphRef="adf70" RelX="-1.0" RelY="0.0"/>
+      <Point X="364.0" Y="1060.0" GraphRef="c67e2" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d938f">
+    <Comment Source="KeggConverter">PPrel;29;10</Comment>
+    <Comment Source="KeggConverter">binding/association; ---</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="572.0" Y="1162.0" GraphRef="c6085" RelX="-1.0" RelY="0.0"/>
+      <Point X="522.0" Y="1162.0" GraphRef="adf70" RelX="1.0" RelY="0.0"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d5ea1">
+    <Comment Source="KeggConverter">PPrel;9;20</Comment>
+    <Comment Source="KeggConverter">activation; --&gt;</Comment>
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="890.0" Y="1070.0" GraphRef="cec51" RelX="-1.0" RelY="0.0"/>
+      <Point X="880.0" Y="1218.0" GraphRef="ed957" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Group GroupId="b0327" GraphId="c67e2" TextLabel="hsa:6337 hsa:6338 hsa:6340"/>
+  <Group GroupId="d23e2" GraphId="f2ef4" TextLabel="hsa:23439 hsa:476 hsa:477 hsa:478 hsa:480 hsa:481 hsa:482 hsa:483 hsa:486"/>
+  <Group GroupId="d7911" GraphId="d33c9" TextLabel="hsa:3290 hsa:3291"/>
+  <Group GroupId="bf028" GraphId="fc173" TextLabel="hsa:3667 hsa:8471 hsa:8660"/>
+  <Group GroupId="ef527" GraphId="ed957" TextLabel="hsa:23533 hsa:5290 hsa:5291 hsa:5293 hsa:5294 hsa:5295 hsa:5296 hsa:8503"/>
+  <Group GroupId="b853a" GraphId="f7001" TextLabel="hsa:5594 hsa:5595"/>
+  <Group GroupId="e11c1" GraphId="aff76" TextLabel="hsa:5578 hsa:5579 hsa:5582"/>
+  <InfoBox CenterX="0.0" CenterY="0.0"/>
+</Pathway>

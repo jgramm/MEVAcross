@@ -1,0 +1,3443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://genmapp.org/GPML/2010a" Name="Arginine and proline metabolism" Data-Source="http://www.genome.jp/kegg-bin/show_pathway?hsa00330" Organism="Homo sapiens">
+  <Attribute Key="ConversionDate" Value="20110524"/>
+  <Attribute Key="KeggId" Value="path:hsa00330"/>
+  <Graphics BoardWidth="2852.0" BoardHeight="2218.0"/>
+  <DataNode TextLabel="N-(L-Arginino)succinate" GraphId="c997c" Type="Metabolite">
+    <Graphics CenterX="1088.0" CenterY="206.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03406"/>
+  </DataNode>
+  <DataNode TextLabel="L-Citrulline" GraphId="f4a7e" Type="Metabolite">
+    <Graphics CenterX="854.0" CenterY="450.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00327"/>
+  </DataNode>
+  <DataNode TextLabel="L-Arginine" GraphId="b58d4" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="448.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00062"/>
+  </DataNode>
+  <DataNode TextLabel="L-Ornithine" GraphId="d7755" Type="Metabolite">
+    <Graphics CenterX="974.0" CenterY="668.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00077"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C00169" GraphId="cd5ac" Type="Metabolite">
+    <Graphics CenterX="364.0" CenterY="578.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00169"/>
+  </DataNode>
+  <DataNode TextLabel="L-Glutamate" GraphId="f1b37" Type="Metabolite">
+    <Graphics CenterX="206.0" CenterY="1550.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00025"/>
+  </DataNode>
+  <DataNode TextLabel="Putrescine" GraphId="c83ab" Type="Metabolite">
+    <Graphics CenterX="974.0" CenterY="1552.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00134"/>
+  </DataNode>
+  <DataNode TextLabel="L-Glutamate 5-semialdehyde" GraphId="bb34c" Type="Metabolite">
+    <Graphics CenterX="1128.0" CenterY="902.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01165"/>
+  </DataNode>
+  <DataNode TextLabel="(S)-1-Pyrroline-5-carboxylate" GraphId="bd27c" Type="Metabolite">
+    <Graphics CenterX="1128.0" CenterY="1022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03912"/>
+  </DataNode>
+  <DataNode TextLabel="L-Proline" GraphId="ddc40" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="1022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00148"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C01157" GraphId="cc49d" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01157"/>
+  </DataNode>
+  <DataNode TextLabel="L-1-Pyrroline-3-hydroxy-5-carboxylate" GraphId="e5a8e" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C04281"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C05947" GraphId="b6ab5" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05947"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C05946" GraphId="e1b96" Type="Metabolite">
+    <Graphics CenterX="2044.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05946"/>
+  </DataNode>
+  <DataNode TextLabel="Glyoxylate" GraphId="f3455" Type="Metabolite">
+    <Graphics CenterX="2302.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00048"/>
+  </DataNode>
+  <DataNode TextLabel="L-Aspartate" GraphId="e6402" Type="Metabolite">
+    <Graphics CenterX="826.0" CenterY="318.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00049"/>
+  </DataNode>
+  <DataNode TextLabel="Fumarate" GraphId="ca8a5" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="314.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00122"/>
+  </DataNode>
+  <DataNode TextLabel="N2-Succinyl-L-arginine" GraphId="a4dd8" Type="Metabolite">
+    <Graphics CenterX="2380.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03296"/>
+  </DataNode>
+  <DataNode TextLabel="N2-Succinyl-L-ornithine" GraphId="e3614" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03415"/>
+  </DataNode>
+  <DataNode TextLabel="N-Succinyl-L-glutamate" GraphId="bb636" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05931"/>
+  </DataNode>
+  <DataNode TextLabel="L-Glutamyl 5-phosphate" GraphId="cfcfc" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="962.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03287"/>
+  </DataNode>
+  <DataNode TextLabel="NH3" GraphId="f9a42" Type="Metabolite">
+    <Graphics CenterX="190.0" CenterY="578.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00014"/>
+  </DataNode>
+  <DataNode TextLabel="N-Acetyl-L-glutamate" GraphId="be70a" Type="Metabolite">
+    <Graphics CenterX="364.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00624"/>
+  </DataNode>
+  <DataNode TextLabel="N-Acetyl-L-glutamate 5-phosphate" GraphId="b2012" Type="Metabolite">
+    <Graphics CenterX="548.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C04133"/>
+  </DataNode>
+  <DataNode TextLabel="N-Acetyl-L-glutamate 5-semialdehyde" GraphId="bdf7b" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01250"/>
+  </DataNode>
+  <DataNode TextLabel="N-Acetylornithine" GraphId="a750d" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="668.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00437"/>
+  </DataNode>
+  <DataNode TextLabel="L-Glutamine" GraphId="fb131" Type="Metabolite">
+    <Graphics CenterX="184.0" CenterY="362.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00064"/>
+  </DataNode>
+  <DataNode TextLabel="Nopaline" GraphId="c644a" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="592.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01682"/>
+  </DataNode>
+  <DataNode TextLabel="D-Octopine" GraphId="ead67" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="592.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C04137"/>
+  </DataNode>
+  <DataNode TextLabel="L-Arginine phosphate" GraphId="b7833" Type="Metabolite">
+    <Graphics CenterX="2044.0" CenterY="592.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05945"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C05933" GraphId="dbfef" Type="Metabolite">
+    <Graphics CenterX="2232.0" CenterY="594.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05933"/>
+  </DataNode>
+  <DataNode TextLabel="Guanidinoacetate" GraphId="ba850" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="232.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00581"/>
+  </DataNode>
+  <DataNode TextLabel="Creatine" GraphId="fb1b4" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="232.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00300"/>
+  </DataNode>
+  <DataNode TextLabel="Phosphocreatine" GraphId="ec875" Type="Metabolite">
+    <Graphics CenterX="2044.0" CenterY="232.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C02305"/>
+  </DataNode>
+  <DataNode TextLabel="Creatinine" GraphId="eda92" Type="Metabolite">
+    <Graphics CenterX="2290.0" CenterY="232.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00791"/>
+  </DataNode>
+  <DataNode TextLabel="Nitric oxide" GraphId="fa48e" Type="Metabolite">
+    <Graphics CenterX="2232.0" CenterY="694.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00533"/>
+  </DataNode>
+  <DataNode TextLabel="N-Methylhydantoin" GraphId="bee7b" Type="Metabolite">
+    <Graphics CenterX="2290.0" CenterY="386.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C02565"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C01043" GraphId="ad940" Type="Metabolite">
+    <Graphics CenterX="2044.0" CenterY="386.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01043"/>
+  </DataNode>
+  <DataNode TextLabel="Sarcosine" GraphId="ea6ac" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="386.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00213"/>
+  </DataNode>
+  <DataNode TextLabel="Urea" GraphId="ddbae" Type="Metabolite">
+    <Graphics CenterX="1308.0" CenterY="694.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00086"/>
+  </DataNode>
+  <DataNode TextLabel="Urea-1-carboxylate" GraphId="aff94" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="694.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01010"/>
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="f632b" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="694.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00011"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C00763" GraphId="f29e7" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="1022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00763"/>
+  </DataNode>
+  <DataNode TextLabel="5-Aminopentanoate" GraphId="c658f" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="1022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00431"/>
+  </DataNode>
+  <DataNode TextLabel="1-Pyrroline-2-carboxylate" GraphId="ac5da" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="902.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03564"/>
+  </DataNode>
+  <DataNode TextLabel="4-Oxoproline" GraphId="db732" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="1326.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01877"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C05938" GraphId="d4f4e" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="1326.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05938"/>
+  </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="b5dd8" Type="Metabolite">
+    <Graphics CenterX="2230.0" CenterY="1144.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00022"/>
+  </DataNode>
+  <DataNode TextLabel="Urea" GraphId="e5306" Type="Metabolite">
+    <Graphics CenterX="1952.0" CenterY="336.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00086"/>
+  </DataNode>
+  <DataNode TextLabel="4-Aminobutyraldehyde" GraphId="f31e0" Type="Metabolite">
+    <Graphics CenterX="974.0" CenterY="1932.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00555"/>
+  </DataNode>
+  <DataNode TextLabel="4-Aminobutanoate" GraphId="a8e61" Type="Metabolite">
+    <Graphics CenterX="978.0" CenterY="2118.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00334"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C15699" GraphId="a2ea7" Type="Metabolite">
+    <Graphics CenterX="364.0" CenterY="1672.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C15699"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C15700" GraphId="b73f8" Type="Metabolite">
+    <Graphics CenterX="364.0" CenterY="1802.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C15700"/>
+  </DataNode>
+  <DataNode TextLabel="gamma-Glutamyl-gamma-aminobutyrate" GraphId="bced6" Type="Metabolite">
+    <Graphics CenterX="364.0" CenterY="1932.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C15767"/>
+  </DataNode>
+  <DataNode TextLabel="Spermidine" GraphId="ba1d4" Type="Metabolite">
+    <Graphics CenterX="1586.0" CenterY="1932.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00315"/>
+  </DataNode>
+  <DataNode TextLabel="S-Adenosylmethioninamine" GraphId="cf93e" Type="Metabolite">
+    <Graphics CenterX="1632.0" CenterY="1802.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01137"/>
+  </DataNode>
+  <DataNode TextLabel="Spermine" GraphId="f268f" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="1932.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00750"/>
+  </DataNode>
+  <DataNode TextLabel="S-Adenosyl-L-methionine" GraphId="cddf2" Type="Metabolite">
+    <Graphics CenterX="1632.0" CenterY="1672.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00019"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C02714" GraphId="c0713" Type="Metabolite">
+    <Graphics CenterX="548.0" CenterY="1672.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C02714"/>
+  </DataNode>
+  <DataNode TextLabel="N4-Acetylaminobutanal" GraphId="bdb78" Type="Metabolite">
+    <Graphics CenterX="548.0" CenterY="1802.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05936"/>
+  </DataNode>
+  <DataNode TextLabel="4-Acetamidobutanoate" GraphId="be35a" Type="Metabolite">
+    <Graphics CenterX="548.0" CenterY="1932.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C02946"/>
+  </DataNode>
+  <DataNode TextLabel="Agmatine" GraphId="ec508" Type="Metabolite">
+    <Graphics CenterX="2474.0" CenterY="1546.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00179"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C00436" GraphId="d0a3b" Type="Metabolite">
+    <Graphics CenterX="2230.0" CenterY="1482.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00436"/>
+  </DataNode>
+  <DataNode TextLabel="5-Guanidino-2-oxopentanoate" GraphId="f26b3" Type="Metabolite">
+    <Graphics CenterX="2670.0" CenterY="902.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03771"/>
+  </DataNode>
+  <DataNode TextLabel="4-Guanidinobutanoate" GraphId="c6701" Type="Metabolite">
+    <Graphics CenterX="2670.0" CenterY="2118.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01035"/>
+  </DataNode>
+  <DataNode TextLabel="GLS2" GraphId="b1844" Type="GeneProduct" GroupRef="c91b0">
+    <Comment Source="KeggConverter">Original kegg element: gene;167;hsa:27165 hsa:2744</Comment>
+    <Graphics CenterX="134.0" CenterY="436.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="27165"/>
+  </DataNode>
+  <DataNode TextLabel="GLS" GraphId="dcf73" Type="GeneProduct" GroupRef="c91b0">
+    <Comment Source="KeggConverter">Original kegg element: gene;167;hsa:27165 hsa:2744</Comment>
+    <Graphics CenterX="134.0" CenterY="416.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2744"/>
+  </DataNode>
+  <DataNode TextLabel="GLUL" GraphId="c0ba1" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;168;hsa:2752</Comment>
+    <Graphics CenterX="72.0" CenterY="508.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2752"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00926" GraphId="ba7ba" Type="GeneProduct">
+    <Graphics CenterX="274.0" CenterY="528.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00926"/>
+  </DataNode>
+  <DataNode TextLabel="CPS1" GraphId="fb1f0" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;170;hsa:1373</Comment>
+    <Graphics CenterX="274.0" CenterY="580.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="1373"/>
+  </DataNode>
+  <DataNode TextLabel="OTC" GraphId="e5f34" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;171;hsa:5009</Comment>
+    <Graphics CenterX="870.0" CenterY="528.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5009"/>
+  </DataNode>
+  <DataNode TextLabel="ASS1" GraphId="dc956" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;172;hsa:445</Comment>
+    <Graphics CenterX="932.0" CenterY="274.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="445"/>
+  </DataNode>
+  <DataNode TextLabel="Alanine, aspartate and glutamate metabolism" GraphId="b4b75" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;173;path:hsa00250</Comment>
+    <Graphics CenterX="832.0" CenterY="180.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00250"/>
+  </DataNode>
+  <DataNode TextLabel="ASL" GraphId="b2bc5" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;174;hsa:435</Comment>
+    <Graphics CenterX="1276.0" CenterY="274.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="435"/>
+  </DataNode>
+  <DataNode TextLabel="ARG1" GraphId="ec6ff" Type="GeneProduct" GroupRef="f0547">
+    <Comment Source="KeggConverter">Original kegg element: gene;175;hsa:383 hsa:384</Comment>
+    <Graphics CenterX="1328.0" CenterY="566.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="383"/>
+  </DataNode>
+  <DataNode TextLabel="ARG2" GraphId="db5dc" Type="GeneProduct" GroupRef="f0547">
+    <Comment Source="KeggConverter">Original kegg element: gene;175;hsa:383 hsa:384</Comment>
+    <Graphics CenterX="1328.0" CenterY="546.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="384"/>
+  </DataNode>
+  <DataNode TextLabel="NAGS" GraphId="d85d0" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;176;hsa:162417</Comment>
+    <Graphics CenterX="274.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="162417"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00930" GraphId="a5bc4" Type="GeneProduct" GroupRef="ad209">
+    <Graphics CenterX="452.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00930..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12659" GraphId="eacba" Type="GeneProduct" GroupRef="ad209">
+    <Graphics CenterX="452.0" CenterY="798.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00930..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00145" GraphId="a4c9a" Type="GeneProduct" GroupRef="c43df">
+    <Graphics CenterX="626.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00145..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12659" GraphId="bb70b" Type="GeneProduct" GroupRef="c43df">
+    <Graphics CenterX="626.0" CenterY="798.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00145..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00818" GraphId="a6a6c" Type="GeneProduct" GroupRef="e3d4e">
+    <Graphics CenterX="666.0" CenterY="752.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00818..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00821" GraphId="f23da" Type="GeneProduct" GroupRef="e3d4e">
+    <Graphics CenterX="666.0" CenterY="732.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00818..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K05830" GraphId="c04e7" Type="GeneProduct" GroupRef="e3d4e">
+    <Graphics CenterX="666.0" CenterY="772.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00818..."/>
+  </DataNode>
+  <DataNode TextLabel="ACY1" GraphId="cbfe9" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;180;hsa:95</Comment>
+    <Graphics CenterX="850.0" CenterY="650.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="95"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01438" GraphId="e5dcd" Type="GeneProduct">
+    <Graphics CenterX="850.0" CenterY="692.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01438"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00642" GraphId="fdcab" Type="GeneProduct" GroupRef="f550e">
+    <Graphics CenterX="850.0" CenterY="752.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00642..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00620" GraphId="f621b" Type="GeneProduct" GroupRef="f550e">
+    <Graphics CenterX="850.0" CenterY="732.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00642..."/>
+  </DataNode>
+  <DataNode TextLabel="OAT" GraphId="a628d" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;183;hsa:4942</Comment>
+    <Graphics CenterX="1026.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4942"/>
+  </DataNode>
+  <DataNode TextLabel="PYCR2" GraphId="b4c55" Type="GeneProduct" GroupRef="ede7b">
+    <Comment Source="KeggConverter">Original kegg element: gene;184;hsa:29920 hsa:5831 hsa:65263</Comment>
+    <Graphics CenterX="1244.0" CenterY="1024.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="29920"/>
+  </DataNode>
+  <DataNode TextLabel="PYCR1" GraphId="b5b57" Type="GeneProduct" GroupRef="ede7b">
+    <Comment Source="KeggConverter">Original kegg element: gene;184;hsa:29920 hsa:5831 hsa:65263</Comment>
+    <Graphics CenterX="1244.0" CenterY="1004.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5831"/>
+  </DataNode>
+  <DataNode TextLabel="PYCRL" GraphId="e0b0e" Type="GeneProduct" GroupRef="ede7b">
+    <Comment Source="KeggConverter">Original kegg element: gene;184;hsa:29920 hsa:5831 hsa:65263</Comment>
+    <Graphics CenterX="1244.0" CenterY="1044.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="65263"/>
+  </DataNode>
+  <DataNode TextLabel="PRODH" GraphId="aeea9" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;185;hsa:5625</Comment>
+    <Graphics CenterX="1244.0" CenterY="1088.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5625"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C00012" GraphId="ed6e5" Type="Metabolite">
+    <Graphics CenterX="1274.0" CenterY="902.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00012"/>
+  </DataNode>
+  <DataNode TextLabel="LAP3" GraphId="fab69" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;188;hsa:51056</Comment>
+    <Graphics CenterX="1306.0" CenterY="964.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="51056"/>
+  </DataNode>
+  <DataNode TextLabel="P4HA3" GraphId="d1fd4" Type="GeneProduct" GroupRef="a625f">
+    <Comment Source="KeggConverter">Original kegg element: gene;190;hsa:283208 hsa:5033 hsa:8974</Comment>
+    <Graphics CenterX="1358.0" CenterY="1126.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="283208"/>
+  </DataNode>
+  <DataNode TextLabel="P4HA1" GraphId="e1aec" Type="GeneProduct" GroupRef="a625f">
+    <Comment Source="KeggConverter">Original kegg element: gene;190;hsa:283208 hsa:5033 hsa:8974</Comment>
+    <Graphics CenterX="1358.0" CenterY="1106.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5033"/>
+  </DataNode>
+  <DataNode TextLabel="P4HA2" GraphId="ca98e" Type="GeneProduct" GroupRef="a625f">
+    <Comment Source="KeggConverter">Original kegg element: gene;190;hsa:283208 hsa:5033 hsa:8974</Comment>
+    <Graphics CenterX="1358.0" CenterY="1146.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8974"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01777" GraphId="a269f" Type="GeneProduct">
+    <Graphics CenterX="1462.0" CenterY="1024.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01777"/>
+  </DataNode>
+  <DataNode TextLabel="DAO" GraphId="fdb5a" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;193;hsa:1610</Comment>
+    <Graphics CenterX="1586.0" CenterY="964.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="1610"/>
+  </DataNode>
+  <DataNode TextLabel="5-Amino-2-oxopentanoic acid" GraphId="b468a" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="902.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C01110"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K10793" GraphId="eecda" Type="GeneProduct" GroupRef="a6522">
+    <Graphics CenterX="1692.0" CenterY="1044.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K10793..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K10794" GraphId="e3980" Type="GeneProduct" GroupRef="a6522">
+    <Graphics CenterX="1692.0" CenterY="1024.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K10793..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K10795" GraphId="b27c3" Type="GeneProduct" GroupRef="a6522">
+    <Graphics CenterX="1692.0" CenterY="1064.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K10793..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K10796" GraphId="f9ab1" Type="GeneProduct" GroupRef="a6522">
+    <Graphics CenterX="1692.0" CenterY="1004.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K10793..."/>
+  </DataNode>
+  <DataNode TextLabel="PRODH2" GraphId="af935" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;197;hsa:58510</Comment>
+    <Graphics CenterX="1462.0" CenterY="1228.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="58510"/>
+  </DataNode>
+  <DataNode TextLabel="PYCR2" GraphId="d30ca" Type="GeneProduct" GroupRef="c3410">
+    <Comment Source="KeggConverter">Original kegg element: gene;198;hsa:29920 hsa:5831 hsa:65263</Comment>
+    <Graphics CenterX="1462.0" CenterY="1152.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="29920"/>
+  </DataNode>
+  <DataNode TextLabel="PYCR1" GraphId="b177b" Type="GeneProduct" GroupRef="c3410">
+    <Comment Source="KeggConverter">Original kegg element: gene;198;hsa:29920 hsa:5831 hsa:65263</Comment>
+    <Graphics CenterX="1462.0" CenterY="1132.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5831"/>
+  </DataNode>
+  <DataNode TextLabel="PYCRL" GraphId="d10e5" Type="GeneProduct" GroupRef="c3410">
+    <Comment Source="KeggConverter">Original kegg element: gene;198;hsa:29920 hsa:5831 hsa:65263</Comment>
+    <Graphics CenterX="1462.0" CenterY="1172.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="65263"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH4A1" GraphId="fef6e" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;199;hsa:8659</Comment>
+    <Graphics CenterX="1692.0" CenterY="1228.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8659"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH4A1" GraphId="c91ed" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;200;hsa:8659</Comment>
+    <Graphics CenterX="1692.0" CenterY="1306.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8659"/>
+  </DataNode>
+  <DataNode TextLabel="PRODH" GraphId="ceb48" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;201;hsa:5625</Comment>
+    <Graphics CenterX="1692.0" CenterY="1348.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5625"/>
+  </DataNode>
+  <DataNode TextLabel="GOT1" GraphId="adf88" Type="GeneProduct" GroupRef="f4129">
+    <Comment Source="KeggConverter">Original kegg element: gene;202;hsa:2805 hsa:2806</Comment>
+    <Graphics CenterX="1906.0" CenterY="1206.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2805"/>
+  </DataNode>
+  <DataNode TextLabel="GOT2" GraphId="c0712" Type="GeneProduct" GroupRef="f4129">
+    <Comment Source="KeggConverter">Original kegg element: gene;202;hsa:2805 hsa:2806</Comment>
+    <Graphics CenterX="1906.0" CenterY="1186.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2806"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00824" GraphId="a73c1" Type="GeneProduct">
+    <Graphics CenterX="1860.0" CenterY="1248.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00824"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01571" GraphId="f44fd" Type="GeneProduct" GroupRef="cf10c">
+    <Graphics CenterX="2152.0" CenterY="1206.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01571..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01572" GraphId="acf5f" Type="GeneProduct" GroupRef="cf10c">
+    <Graphics CenterX="2152.0" CenterY="1186.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01571..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01573" GraphId="ac894" Type="GeneProduct" GroupRef="cf10c">
+    <Graphics CenterX="2152.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01571..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01625" GraphId="a2f74" Type="GeneProduct">
+    <Graphics CenterX="2106.0" CenterY="1248.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01625"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01625" GraphId="e00eb" Type="GeneProduct">
+    <Graphics CenterX="2202.0" CenterY="1248.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01625"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00296" GraphId="d3b3f" Type="GeneProduct">
+    <Graphics CenterX="1588.0" CenterY="528.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00296"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00934" GraphId="febd6" Type="GeneProduct">
+    <Graphics CenterX="2046.0" CenterY="528.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00934"/>
+  </DataNode>
+  <DataNode TextLabel="NOS1" GraphId="d01d0" Type="GeneProduct" GroupRef="cda63">
+    <Comment Source="KeggConverter">Original kegg element: gene;211;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="2234.0" CenterY="528.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4842"/>
+  </DataNode>
+  <DataNode TextLabel="NOS2" GraphId="ea422" Type="GeneProduct" GroupRef="cda63">
+    <Comment Source="KeggConverter">Original kegg element: gene;211;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="2234.0" CenterY="508.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4843"/>
+  </DataNode>
+  <DataNode TextLabel="NOS3" GraphId="ffdb1" Type="GeneProduct" GroupRef="cda63">
+    <Comment Source="KeggConverter">Original kegg element: gene;211;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="2234.0" CenterY="548.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4846"/>
+  </DataNode>
+  <DataNode TextLabel="NOS1" GraphId="b0bee" Type="GeneProduct" GroupRef="dc065">
+    <Comment Source="KeggConverter">Original kegg element: gene;212;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="2234.0" CenterY="640.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4842"/>
+  </DataNode>
+  <DataNode TextLabel="NOS2" GraphId="a2c9c" Type="GeneProduct" GroupRef="dc065">
+    <Comment Source="KeggConverter">Original kegg element: gene;212;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="2234.0" CenterY="620.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4843"/>
+  </DataNode>
+  <DataNode TextLabel="NOS3" GraphId="cfa2f" Type="GeneProduct" GroupRef="dc065">
+    <Comment Source="KeggConverter">Original kegg element: gene;212;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="2234.0" CenterY="660.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4846"/>
+  </DataNode>
+  <DataNode TextLabel="GATM" GraphId="f93a7" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;213;hsa:2628</Comment>
+    <Graphics CenterX="1586.0" CenterY="294.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2628"/>
+  </DataNode>
+  <DataNode TextLabel="GAMT" GraphId="d02fc" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;214;hsa:2593</Comment>
+    <Graphics CenterX="1692.0" CenterY="234.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2593"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K08688" GraphId="f7bd9" Type="GeneProduct">
+    <Graphics CenterX="1796.0" CenterY="296.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K08688"/>
+  </DataNode>
+  <DataNode TextLabel="CKB" GraphId="c7aad" Type="GeneProduct" GroupRef="baa1a">
+    <Comment Source="KeggConverter">Original kegg element: gene;216;hsa:1152 hsa:1158 hsa:1159 hsa:1160 hsa:548596</Comment>
+    <Graphics CenterX="1916.0" CenterY="234.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="1152"/>
+  </DataNode>
+  <DataNode TextLabel="CKM" GraphId="c7d3a" Type="GeneProduct" GroupRef="baa1a">
+    <Comment Source="KeggConverter">Original kegg element: gene;216;hsa:1152 hsa:1158 hsa:1159 hsa:1160 hsa:548596</Comment>
+    <Graphics CenterX="1916.0" CenterY="214.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="1158"/>
+  </DataNode>
+  <DataNode TextLabel="CKMT1B" GraphId="d6cb3" Type="GeneProduct" GroupRef="baa1a">
+    <Comment Source="KeggConverter">Original kegg element: gene;216;hsa:1152 hsa:1158 hsa:1159 hsa:1160 hsa:548596</Comment>
+    <Graphics CenterX="1916.0" CenterY="254.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="1159"/>
+  </DataNode>
+  <DataNode TextLabel="CKMT2" GraphId="bfdbb" Type="GeneProduct" GroupRef="baa1a">
+    <Comment Source="KeggConverter">Original kegg element: gene;216;hsa:1152 hsa:1158 hsa:1159 hsa:1160 hsa:548596</Comment>
+    <Graphics CenterX="1916.0" CenterY="194.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="1160"/>
+  </DataNode>
+  <DataNode TextLabel="CKMT1A" GraphId="b5a09" Type="GeneProduct" GroupRef="baa1a">
+    <Comment Source="KeggConverter">Original kegg element: gene;216;hsa:1152 hsa:1158 hsa:1159 hsa:1160 hsa:548596</Comment>
+    <Graphics CenterX="1916.0" CenterY="274.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="548596"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K08687" GraphId="eb918" Type="GeneProduct">
+    <Graphics CenterX="1916.0" CenterY="388.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K08687"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01473" GraphId="c9aea" Type="GeneProduct" GroupRef="fcafa">
+    <Graphics CenterX="2194.0" CenterY="386.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01473..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01474" GraphId="b709e" Type="GeneProduct" GroupRef="fcafa">
+    <Graphics CenterX="2194.0" CenterY="366.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01473..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K03365" GraphId="a6fce" Type="GeneProduct">
+    <Graphics CenterX="2340.0" CenterY="294.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K03365"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12252" GraphId="a8b02" Type="GeneProduct">
+    <Graphics CenterX="2668.0" CenterY="640.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12252"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12253" GraphId="e54a7" Type="GeneProduct">
+    <Graphics CenterX="2670.0" CenterY="1228.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12253"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12254" GraphId="c048e" Type="GeneProduct">
+    <Graphics CenterX="2670.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12254"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12255" GraphId="c2b4c" Type="GeneProduct">
+    <Graphics CenterX="2046.0" CenterY="2126.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12255"/>
+  </DataNode>
+  <DataNode TextLabel="GATM" GraphId="f0e6f" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;225;hsa:2628</Comment>
+    <Graphics CenterX="2046.0" CenterY="2178.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2628"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01426" GraphId="e2411" Type="GeneProduct">
+    <Graphics CenterX="2782.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01426"/>
+  </DataNode>
+  <DataNode TextLabel="ADC" GraphId="e4ce1" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;228;hsa:113451</Comment>
+    <Graphics CenterX="2482.0" CenterY="640.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="113451"/>
+  </DataNode>
+  <DataNode TextLabel="AGMAT" GraphId="aa532" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;229;hsa:79814</Comment>
+    <Graphics CenterX="2378.0" CenterY="1542.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="79814"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K10536" GraphId="e1d8d" Type="GeneProduct">
+    <Graphics CenterX="2378.0" CenterY="1484.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K10536"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12251" GraphId="d2fd5" Type="GeneProduct">
+    <Graphics CenterX="2046.0" CenterY="1484.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12251"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00673" GraphId="f9a40" Type="GeneProduct">
+    <Graphics CenterX="2374.0" CenterY="640.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00673"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01484" GraphId="c5f0b" Type="GeneProduct">
+    <Graphics CenterX="2046.0" CenterY="1408.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01484"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00840" GraphId="d1204" Type="GeneProduct">
+    <Graphics CenterX="1656.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00840"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K06447" GraphId="e1be8" Type="GeneProduct">
+    <Graphics CenterX="1244.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K06447"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K05526" GraphId="c129f" Type="GeneProduct">
+    <Graphics CenterX="452.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K05526"/>
+  </DataNode>
+  <DataNode TextLabel="ODC1" GraphId="f9248" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;237;hsa:4953</Comment>
+    <Graphics CenterX="972.0" CenterY="1328.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4953"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH4A1" GraphId="d9219" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;238;hsa:8659</Comment>
+    <Graphics CenterX="452.0" CenterY="902.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8659"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH18A1" GraphId="f8f99" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;239;hsa:5832</Comment>
+    <Graphics CenterX="452.0" CenterY="964.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5832"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH18A1" GraphId="b5742" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;240;hsa:5832</Comment>
+    <Graphics CenterX="850.0" CenterY="964.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="5832"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K09470" GraphId="ed284" Type="GeneProduct">
+    <Graphics CenterX="366.0" CenterY="1604.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K09470"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K09471" GraphId="e48ed" Type="GeneProduct">
+    <Graphics CenterX="366.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K09471"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K09472" GraphId="e8ec0" Type="GeneProduct">
+    <Graphics CenterX="366.0" CenterY="1868.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K09472"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K09473" GraphId="bc6b0" Type="GeneProduct">
+    <Graphics CenterX="366.0" CenterY="1984.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K09473"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K03343" GraphId="ab9e1" Type="GeneProduct">
+    <Graphics CenterX="728.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K03343"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12256" GraphId="ce51c" Type="GeneProduct">
+    <Graphics CenterX="1024.0" CenterY="1868.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12256"/>
+  </DataNode>
+  <DataNode TextLabel="ABP1" GraphId="a9c09" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;248;hsa:26</Comment>
+    <Graphics CenterX="974.0" CenterY="1830.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="26"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K09251" GraphId="ffc36" Type="GeneProduct">
+    <Graphics CenterX="924.0" CenterY="1868.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K09251"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12254" GraphId="c8f9a" Type="GeneProduct">
+    <Graphics CenterX="1024.0" CenterY="2022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12254"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00137" GraphId="d264b" Type="GeneProduct">
+    <Graphics CenterX="924.0" CenterY="2022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00137"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH2" GraphId="e43db" Type="GeneProduct" GroupRef="c98ae">
+    <Comment Source="KeggConverter">Original kegg element: gene;252;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="974.0" CenterY="1984.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="217"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH1B1" GraphId="d61fa" Type="GeneProduct" GroupRef="c98ae">
+    <Comment Source="KeggConverter">Original kegg element: gene;252;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="974.0" CenterY="1964.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="219"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH9A1" GraphId="e4c16" Type="GeneProduct" GroupRef="c98ae">
+    <Comment Source="KeggConverter">Original kegg element: gene;252;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="974.0" CenterY="2004.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="223"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH3A2" GraphId="b3716" Type="GeneProduct" GroupRef="c98ae">
+    <Comment Source="KeggConverter">Original kegg element: gene;252;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="974.0" CenterY="1944.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="224"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH7A1" GraphId="bd830" Type="GeneProduct" GroupRef="c98ae">
+    <Comment Source="KeggConverter">Original kegg element: gene;252;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="974.0" CenterY="2024.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="501"/>
+  </DataNode>
+  <DataNode TextLabel="SRM" GraphId="a33ee" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;253;hsa:6723</Comment>
+    <Graphics CenterX="1578.0" CenterY="1854.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6723"/>
+  </DataNode>
+  <DataNode TextLabel="AMD1" GraphId="f5bc3" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;254;hsa:262</Comment>
+    <Graphics CenterX="1642.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="262"/>
+  </DataNode>
+  <DataNode TextLabel="SMS" GraphId="a4f79" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;255;hsa:6611</Comment>
+    <Graphics CenterX="1692.0" CenterY="1952.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6611"/>
+  </DataNode>
+  <DataNode TextLabel="SAT2" GraphId="b2c11" Type="GeneProduct" GroupRef="d0fab">
+    <Comment Source="KeggConverter">Original kegg element: gene;256;hsa:112483 hsa:6303</Comment>
+    <Graphics CenterX="498.0" CenterY="1604.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="112483"/>
+  </DataNode>
+  <DataNode TextLabel="SAT1" GraphId="b1355" Type="GeneProduct" GroupRef="d0fab">
+    <Comment Source="KeggConverter">Original kegg element: gene;256;hsa:112483 hsa:6303</Comment>
+    <Graphics CenterX="498.0" CenterY="1584.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6303"/>
+  </DataNode>
+  <DataNode TextLabel="MAOA" GraphId="f76c9" Type="GeneProduct" GroupRef="ddb9f">
+    <Comment Source="KeggConverter">Original kegg element: gene;258;hsa:4128 hsa:4129</Comment>
+    <Graphics CenterX="550.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4128"/>
+  </DataNode>
+  <DataNode TextLabel="MAOB" GraphId="d7da4" Type="GeneProduct" GroupRef="ddb9f">
+    <Comment Source="KeggConverter">Original kegg element: gene;258;hsa:4128 hsa:4129</Comment>
+    <Graphics CenterX="550.0" CenterY="1718.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4129"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH2" GraphId="d9213" Type="GeneProduct" GroupRef="ec0a2">
+    <Comment Source="KeggConverter">Original kegg element: gene;259;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="550.0" CenterY="1868.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="217"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH1B1" GraphId="a7e58" Type="GeneProduct" GroupRef="ec0a2">
+    <Comment Source="KeggConverter">Original kegg element: gene;259;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="550.0" CenterY="1848.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="219"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH9A1" GraphId="e4f1b" Type="GeneProduct" GroupRef="ec0a2">
+    <Comment Source="KeggConverter">Original kegg element: gene;259;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="550.0" CenterY="1888.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="223"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH3A2" GraphId="c870a" Type="GeneProduct" GroupRef="ec0a2">
+    <Comment Source="KeggConverter">Original kegg element: gene;259;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="550.0" CenterY="1828.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="224"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH7A1" GraphId="d98ce" Type="GeneProduct" GroupRef="ec0a2">
+    <Comment Source="KeggConverter">Original kegg element: gene;259;hsa:217 hsa:219 hsa:223 hsa:224 hsa:501</Comment>
+    <Graphics CenterX="550.0" CenterY="1908.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="501"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01941" GraphId="c8972" Type="GeneProduct" GroupRef="aa81d">
+    <Graphics CenterX="1462.0" CenterY="696.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01941..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K14541" GraphId="ec4e5" Type="GeneProduct" GroupRef="aa81d">
+    <Graphics CenterX="1462.0" CenterY="676.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01941..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01457" GraphId="d4d4c" Type="GeneProduct" GroupRef="b8470">
+    <Graphics CenterX="1692.0" CenterY="696.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01457..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K14541" GraphId="d8a25" Type="GeneProduct" GroupRef="b8470">
+    <Graphics CenterX="1692.0" CenterY="676.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01457..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01427" GraphId="edf8e" Type="GeneProduct" GroupRef="fbcb1">
+    <Graphics CenterX="1586.0" CenterY="752.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01427..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01428" GraphId="e198e" Type="GeneProduct" GroupRef="fbcb1">
+    <Graphics CenterX="1586.0" CenterY="732.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01427..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01429" GraphId="f5d50" Type="GeneProduct" GroupRef="fbcb1">
+    <Graphics CenterX="1586.0" CenterY="772.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01427..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01430" GraphId="d42b3" Type="GeneProduct" GroupRef="fbcb1">
+    <Graphics CenterX="1586.0" CenterY="712.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01427..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K14048" GraphId="cafd5" Type="GeneProduct" GroupRef="fbcb1">
+    <Graphics CenterX="1586.0" CenterY="792.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01427..."/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01478" GraphId="e6a13" Type="GeneProduct">
+    <Graphics CenterX="1102.0" CenterY="424.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01478"/>
+  </DataNode>
+  <DataNode TextLabel="NOS1" GraphId="f878e" Type="GeneProduct" GroupRef="d1101">
+    <Comment Source="KeggConverter">Original kegg element: gene;265;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="1102.0" CenterY="466.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4842"/>
+  </DataNode>
+  <DataNode TextLabel="NOS2" GraphId="b55c9" Type="GeneProduct" GroupRef="d1101">
+    <Comment Source="KeggConverter">Original kegg element: gene;265;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="1102.0" CenterY="446.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4843"/>
+  </DataNode>
+  <DataNode TextLabel="NOS3" GraphId="fdb92" Type="GeneProduct" GroupRef="d1101">
+    <Comment Source="KeggConverter">Original kegg element: gene;265;hsa:4842 hsa:4843 hsa:4846</Comment>
+    <Graphics CenterX="1102.0" CenterY="486.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="4846"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C02647" GraphId="a2591" Type="Metabolite">
+    <Graphics CenterX="2670.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C02647"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C03078" GraphId="a3bbd" Type="Metabolite">
+    <Graphics CenterX="2780.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03078"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01750" GraphId="bcfe1" Type="GeneProduct">
+    <Graphics CenterX="1358.0" CenterY="818.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01750"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00260" GraphId="aa1c0" Type="GeneProduct">
+    <Graphics CenterX="188.0" CenterY="716.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00260"/>
+  </DataNode>
+  <DataNode TextLabel="GLUD1" GraphId="e6862" Type="GeneProduct" GroupRef="cc649">
+    <Comment Source="KeggConverter">Original kegg element: gene;271;hsa:2746 hsa:2747</Comment>
+    <Graphics CenterX="140.0" CenterY="754.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2746"/>
+  </DataNode>
+  <DataNode TextLabel="GLUD2" GraphId="b3066" Type="GeneProduct" GroupRef="cc649">
+    <Comment Source="KeggConverter">Original kegg element: gene;271;hsa:2746 hsa:2747</Comment>
+    <Graphics CenterX="140.0" CenterY="734.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="2747"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00262" GraphId="e7a56" Type="GeneProduct">
+    <Graphics CenterX="240.0" CenterY="754.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00262"/>
+  </DataNode>
+  <DataNode TextLabel="Citrate cycle (TCA cycle)" GraphId="e8c5b" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;274;path:hsa00020</Comment>
+    <Graphics CenterX="2264.0" CenterY="1022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00020"/>
+  </DataNode>
+  <DataNode TextLabel="Citrate cycle (TCA cycle)" GraphId="b6dbf" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;275;path:hsa00020</Comment>
+    <Graphics CenterX="1460.0" CenterY="380.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00020"/>
+  </DataNode>
+  <DataNode TextLabel="D-Arginine and D-ornithine metabolism" GraphId="caa00" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;276;path:hsa00472</Comment>
+    <Graphics CenterX="1152.0" CenterY="568.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00472"/>
+  </DataNode>
+  <DataNode TextLabel="Alanine, aspartate and glutamate metabolism" GraphId="a6fb3" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;277;path:hsa00250</Comment>
+    <Graphics CenterX="560.0" CenterY="2176.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00250"/>
+  </DataNode>
+  <DataNode TextLabel="Nitrogen metabolism" GraphId="b030a" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;278;path:hsa00910</Comment>
+    <Graphics CenterX="372.0" CenterY="288.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00910"/>
+  </DataNode>
+  <DataNode TextLabel="Pyrimidine metabolism" GraphId="b5317" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;279;path:hsa00240</Comment>
+    <Graphics CenterX="366.0" CenterY="690.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00240"/>
+  </DataNode>
+  <DataNode TextLabel="Lysine degradation" GraphId="c2e88" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;280;path:hsa00310</Comment>
+    <Graphics CenterX="2046.0" CenterY="1022.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00310"/>
+  </DataNode>
+  <DataNode TextLabel="Glutathione metabolism" GraphId="db392" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;281;path:hsa00480</Comment>
+    <Graphics CenterX="1798.0" CenterY="2042.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00480"/>
+  </DataNode>
+  <DataNode TextLabel="Homocarnosine" GraphId="e9a43" Type="Metabolite">
+    <Graphics CenterX="1230.0" CenterY="2056.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00884"/>
+  </DataNode>
+  <DataNode TextLabel="CARNS1" GraphId="b6e21" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;284;hsa:57571</Comment>
+    <Graphics CenterX="1104.0" CenterY="2062.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="57571"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01270" GraphId="aa5c5" Type="GeneProduct">
+    <Graphics CenterX="1104.0" CenterY="2100.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01270"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01470" GraphId="a54c7" Type="GeneProduct">
+    <Graphics CenterX="2034.0" CenterY="138.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01470"/>
+  </DataNode>
+  <DataNode TextLabel="beta-Alanine metabolism" GraphId="f9c64" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;287;path:hsa00410</Comment>
+    <Graphics CenterX="1966.0" CenterY="1928.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00410"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K00316" GraphId="e7d20" Type="GeneProduct">
+    <Graphics CenterX="1298.0" CenterY="1932.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K00316"/>
+  </DataNode>
+  <DataNode TextLabel="Phosphoguanidinoacetate" GraphId="b926f" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="232.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03166"/>
+  </DataNode>
+  <DataNode TextLabel="N-Succinyl-L-glutamate 5-semialdehyde" GraphId="b35e6" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="1406.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05932"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C03440" GraphId="d9fa5" Type="Metabolite">
+    <Graphics CenterX="1114.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03440"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K12658" GraphId="fcd2e" Type="GeneProduct">
+    <Graphics CenterX="1244.0" CenterY="1228.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K12658"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C04282" GraphId="f1cd1" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C04282"/>
+  </DataNode>
+  <DataNode TextLabel="DAO" GraphId="ba78c" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;300;hsa:1610</Comment>
+    <Graphics CenterX="892.0" CenterY="1228.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="1610"/>
+  </DataNode>
+  <DataNode TextLabel="2,5-Dioxopentanoate" GraphId="c8116" Type="Metabolite">
+    <Graphics CenterX="548.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00433"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C05942" GraphId="cf834" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="1144.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05942"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C05941" GraphId="c8482" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="1324.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05941"/>
+  </DataNode>
+  <DataNode TextLabel="ALDH4A1" GraphId="c1937" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;308;hsa:8659</Comment>
+    <Graphics CenterX="452.0" CenterY="1024.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="8659"/>
+  </DataNode>
+  <DataNode TextLabel="Linatine" GraphId="dfb5c" Type="Metabolite">
+    <Graphics CenterX="1796.0" CenterY="1078.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C05939"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01485" GraphId="c19a0" Type="GeneProduct">
+    <Graphics CenterX="2240.0" CenterY="294.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01485"/>
+  </DataNode>
+  <DataNode TextLabel="Cysteine and methionine metabolism" GraphId="ba2a3" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;311;path:hsa00270</Comment>
+    <Graphics CenterX="1910.0" CenterY="1672.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00270"/>
+  </DataNode>
+  <DataNode TextLabel="Tropane, piperidine and pyridine alkaloid biosynthesis" GraphId="fb089" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;312;path:map00960</Comment>
+    <Graphics CenterX="732.0" CenterY="1490.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:map00960"/>
+  </DataNode>
+  <DataNode TextLabel="Carboxyspermidine" GraphId="b1837" Type="Metabolite">
+    <Graphics CenterX="1358.0" CenterY="1802.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C18172"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K13747" GraphId="bc7b2" Type="GeneProduct">
+    <Graphics CenterX="1358.0" CenterY="1852.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K13747"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K13746" GraphId="fee1b" Type="GeneProduct">
+    <Graphics CenterX="1358.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K13746"/>
+  </DataNode>
+  <DataNode TextLabel="L-Aspartate 4-semialdehyde" GraphId="f8b02" Type="Metabolite">
+    <Graphics CenterX="1230.0" CenterY="1632.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00441"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K13746" GraphId="e7c2b" Type="GeneProduct">
+    <Graphics CenterX="1230.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K13746"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C18174" GraphId="a3068" Type="Metabolite">
+    <Graphics CenterX="1230.0" CenterY="1802.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C18174"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K13747" GraphId="ac81b" Type="GeneProduct">
+    <Graphics CenterX="1230.0" CenterY="1850.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K13747"/>
+  </DataNode>
+  <DataNode TextLabel="Norspermidine" GraphId="b0f2e" Type="Metabolite">
+    <Graphics CenterX="1230.0" CenterY="1904.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03375"/>
+  </DataNode>
+  <DataNode TextLabel="1,3-Diaminopropane" GraphId="f4b86" Type="Metabolite">
+    <Graphics CenterX="1162.0" CenterY="1672.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00986"/>
+  </DataNode>
+  <DataNode TextLabel="Glycine, serine and threonine metabolism" GraphId="a13f4" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: map;324;path:hsa00260</Comment>
+    <Graphics CenterX="1070.0" CenterY="1624.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" ShapeType="RoundedRectangle"/>
+    <Xref Database="KEGG Genes" ID="path:hsa00260"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C15532" GraphId="c571d" Type="Metabolite">
+    <Graphics CenterX="710.0" CenterY="450.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C15532"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K09065" GraphId="da3d9" Type="GeneProduct">
+    <Graphics CenterX="714.0" CenterY="528.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K09065"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K01438" GraphId="da654" Type="GeneProduct">
+    <Graphics CenterX="770.0" CenterY="452.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K01438"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C18048" GraphId="c2ed5" Type="Metabolite">
+    <Graphics CenterX="548.0" CenterY="362.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C18048"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K13043" GraphId="d7eae" Type="GeneProduct">
+    <Graphics CenterX="550.0" CenterY="452.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K13043"/>
+  </DataNode>
+  <DataNode TextLabel="N2-Succinyl-L-ornithine" GraphId="b709c" Type="Metabolite">
+    <Graphics CenterX="476.0" CenterY="542.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C03415"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K05597" GraphId="f383f" Type="GeneProduct">
+    <Graphics CenterX="234.0" CenterY="436.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K05597"/>
+  </DataNode>
+  <DataNode TextLabel="SRM" GraphId="c6885" Type="GeneProduct">
+    <Comment Source="KeggConverter">Original kegg element: gene;338;hsa:6723</Comment>
+    <Graphics CenterX="1692.0" CenterY="1910.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Entrez Gene" ID="6723"/>
+  </DataNode>
+  <DataNode TextLabel="p-Coumaroyl-CoA" GraphId="ba2f5" Type="Metabolite">
+    <Graphics CenterX="2302.0" CenterY="1672.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00223"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C18326" GraphId="acb21" Type="Metabolite">
+    <Graphics CenterX="2230.0" CenterY="1802.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C18326"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K14329" GraphId="baea1" Type="GeneProduct">
+    <Graphics CenterX="2176.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K14329"/>
+  </DataNode>
+  <DataNode TextLabel="Feruloyl-CoA" GraphId="eb738" Type="Metabolite">
+    <Graphics CenterX="2300.0" CenterY="1926.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C00406"/>
+  </DataNode>
+  <DataNode TextLabel="Feruloylputrescine" GraphId="cdff9" Type="Metabolite">
+    <Graphics CenterX="2230.0" CenterY="2052.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C10497"/>
+  </DataNode>
+  <DataNode TextLabel="p-Coumaroylagmatine" GraphId="ec3bc" Type="Metabolite">
+    <Graphics CenterX="2388.0" CenterY="1802.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C04498"/>
+  </DataNode>
+  <DataNode TextLabel="cpd:C18325" GraphId="e0fed" Type="Metabolite">
+    <Graphics CenterX="2382.0" CenterY="2054.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Kegg Compound" ID="C18325"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K14329" GraphId="d7d23" Type="GeneProduct">
+    <Graphics CenterX="2430.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K14329"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K14329" GraphId="ee416" Type="GeneProduct">
+    <Graphics CenterX="2124.0" CenterY="1984.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K14329"/>
+  </DataNode>
+  <DataNode TextLabel="ko:K14329" GraphId="e2219" Type="GeneProduct">
+    <Graphics CenterX="2484.0" CenterY="1984.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg ortholog" ID="K14329"/>
+  </DataNode>
+  <DataNode TextLabel="ec:1.1.1.104" GraphId="b54d5" Type="GeneProduct">
+    <Graphics CenterX="1358.0" CenterY="1286.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="1.1.1.104"/>
+  </DataNode>
+  <DataNode TextLabel="ec:1.5.1.1" GraphId="fb118" Type="GeneProduct">
+    <Graphics CenterX="1462.0" CenterY="902.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="1.5.1.1"/>
+  </DataNode>
+  <DataNode TextLabel="ec:1.4.1.12" GraphId="a3702" Type="GeneProduct">
+    <Graphics CenterX="1692.0" CenterY="1002.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="1.4.1.12"/>
+  </DataNode>
+  <DataNode TextLabel="ec:2.6.1.23" GraphId="ec458" Type="GeneProduct">
+    <Graphics CenterX="1956.0" CenterY="1248.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="2.6.1.23"/>
+  </DataNode>
+  <DataNode TextLabel="ec:1.5.1.11" GraphId="b56dd" Type="GeneProduct">
+    <Graphics CenterX="1800.0" CenterY="528.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="1.5.1.11"/>
+  </DataNode>
+  <DataNode TextLabel="ec:1.13.12.1" GraphId="f1a5e" Type="GeneProduct">
+    <Graphics CenterX="2780.0" CenterY="640.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="1.13.12.1"/>
+  </DataNode>
+  <DataNode TextLabel="ec:2.6.1.29" GraphId="a1aae" Type="GeneProduct">
+    <Graphics CenterX="828.0" CenterY="1738.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="2.6.1.29"/>
+  </DataNode>
+  <DataNode TextLabel="ec:3.5.1.62" GraphId="a890c" Type="GeneProduct">
+    <Graphics CenterX="598.0" CenterY="1604.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="3.5.1.62"/>
+  </DataNode>
+  <DataNode TextLabel="ec:3.5.1.63" GraphId="a52bc" Type="GeneProduct">
+    <Graphics CenterX="550.0" CenterY="1984.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="3.5.1.63"/>
+  </DataNode>
+  <DataNode TextLabel="ec:2.7.3.1" GraphId="f7733" Type="GeneProduct">
+    <Graphics CenterX="1462.0" CenterY="234.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="2.7.3.1"/>
+  </DataNode>
+  <DataNode TextLabel="ec:3.5.4.22" GraphId="cc302" Type="GeneProduct">
+    <Graphics CenterX="626.0" CenterY="1226.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle"/>
+    <Xref Database="Kegg enzyme" ID="3.5.4.22"/>
+  </DataNode>
+  <Line GraphId="f1b11">
+    <Comment Source="KeggConverter">rn:R00256</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="184.0" Y="372.0" GraphRef="fb131" RelX="0.0" RelY="1.0"/>
+      <Point X="234.0" Y="521.0"/>
+      <Point X="190.0" Y="568.0" GraphRef="f9a42" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.33402683865598676" Shape="None" GraphId="acd0d"/>
+      <Anchor Position="0.26745032768126503" Shape="None" GraphId="ea641"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f376f">
+    <Comment Source="KeggConverter">rn:R00253</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="150.0" Y="578.0" GraphRef="f9a42" RelX="-1.0" RelY="0.0"/>
+      <Point X="130.0" Y="470.0"/>
+      <Point X="144.0" Y="362.0" GraphRef="fb131" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.33384734001542005" Shape="None" GraphId="dc929"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ac3fd">
+    <Comment Source="KeggConverter">rn:R00149</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="230.0" Y="578.0" GraphRef="f9a42" RelX="1.0" RelY="0.0"/>
+      <Point X="250.0" Y="578.0"/>
+      <Point X="324.0" Y="578.0" GraphRef="cd5ac" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.46808510638297873" Shape="None" GraphId="bf341"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d7218">
+    <Comment Source="KeggConverter">rn:R01398</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="404.0" Y="578.0" GraphRef="cd5ac" RelX="1.0" RelY="0.0"/>
+      <Point X="854.0" Y="460.0" GraphRef="f4a7e" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="e8a2d"/>
+      <Anchor Position="0.9961926588548405" Shape="None" GraphId="d5a1d"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e31a7">
+    <Comment Source="KeggConverter">rn:R01954</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="854.0" Y="440.0" GraphRef="f4a7e" RelX="0.0" RelY="-1.0"/>
+      <Point X="1048.0" Y="206.0" GraphRef="c997c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="e534f"/>
+      <Anchor Position="0.5842064247986838" Shape="None" GraphId="be424"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c3ae2">
+    <Comment Source="KeggConverter">rn:R01086</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1088.0" Y="216.0" GraphRef="c997c" RelX="0.0" RelY="1.0"/>
+      <Point X="1318.0" Y="314.0" GraphRef="ca8a5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8" Shape="None" GraphId="c9902"/>
+      <Anchor Position="0.7827339050300779" Shape="None" GraphId="f0157"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b148f">
+    <Comment Source="KeggConverter">rn:R00551</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1318.0" Y="448.0" GraphRef="b58d4" RelX="-1.0" RelY="0.0"/>
+      <Point X="974.0" Y="658.0" GraphRef="d7755" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8" Shape="None" GraphId="ee6ab"/>
+      <Anchor Position="0.11844664975744311" Shape="None" GraphId="ae7c1"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fc7a1">
+    <Comment Source="KeggConverter">rn:R00259</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="206.0" Y="1540.0" GraphRef="f1b37" RelX="0.0" RelY="-1.0"/>
+      <Point X="324.0" Y="818.0" GraphRef="be70a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.9889762484865698" Shape="None" GraphId="c9d75"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="faed6">
+    <Comment Source="KeggConverter">rn:R00669</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="750.0" Y="668.0" GraphRef="a750d" RelX="1.0" RelY="0.0"/>
+      <Point X="770.0" Y="668.0"/>
+      <Point X="934.0" Y="668.0" GraphRef="d7755" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5434782608695652" Shape="None" GraphId="f3781"/>
+      <Anchor Position="0.5434782608695652" Shape="None" GraphId="e8e8a"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f9e28">
+    <Comment Source="KeggConverter">rn:R00667</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="678.0" GraphRef="d7755" RelX="0.0" RelY="1.0"/>
+      <Point X="1088.0" Y="902.0" GraphRef="bb34c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5902615082631548" Shape="None" GraphId="f0c17"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b1da1">
+    <Comment Source="KeggConverter">rn:R01253</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1318.0" Y="1022.0" GraphRef="ddc40" RelX="-1.0" RelY="0.0"/>
+      <Point X="1298.0" Y="1037.0"/>
+      <Point X="1244.0" Y="1173.0"/>
+      <Point X="1128.0" Y="1032.0" GraphRef="bd27c" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.40662983425414306" Shape="None" GraphId="c9599"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d8eab">
+    <Comment Source="KeggConverter">rn:R00135</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1274.0" Y="912.0" GraphRef="ed6e5" RelX="0.0" RelY="1.0"/>
+      <Point X="1318.0" Y="1022.0" GraphRef="ddc40" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5078369905956113" Shape="None" GraphId="b7274"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c6f86">
+    <Comment Source="KeggConverter">rn:R01252</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1358.0" Y="1032.0" GraphRef="ddc40" RelX="0.0" RelY="1.0"/>
+      <Point X="1358.0" Y="1052.0"/>
+      <Point X="1358.0" Y="1216.0" GraphRef="cc49d" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5108695652173914" Shape="None" GraphId="db8bb"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f14a1">
+    <Comment Source="KeggConverter">rn:R02894</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1586.0" Y="1012.0" GraphRef="f29e7" RelX="0.0" RelY="-1.0"/>
+      <Point X="1586.0" Y="992.0"/>
+      <Point X="1586.0" Y="912.0" GraphRef="ac5da" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.48" Shape="None" GraphId="feb5f"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b1468">
+    <Comment Source="KeggConverter">rn:R03295</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="1226.0" GraphRef="cc49d" RelX="1.0" RelY="0.0"/>
+      <Point X="1418.0" Y="1226.0"/>
+      <Point X="1546.0" Y="1226.0" GraphRef="e5a8e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.43243243243243246" Shape="None" GraphId="b3518"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f67fc">
+    <Comment Source="KeggConverter">rn:R05051</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1626.0" Y="1326.0" GraphRef="d4f4e" RelX="1.0" RelY="0.0"/>
+      <Point X="1646.0" Y="1276.0"/>
+      <Point X="1756.0" Y="1226.0" GraphRef="b6ab5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3933085501858733" Shape="None" GraphId="ddf43"/>
+      <Anchor Position="0.23717472118959082" Shape="None" GraphId="a26c2"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fdeec">
+    <Comment Source="KeggConverter">rn:R05051</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1626.0" Y="1326.0" GraphRef="d4f4e" RelX="1.0" RelY="0.0"/>
+      <Point X="1646.0" Y="1276.0"/>
+      <Point X="1756.0" Y="1226.0" GraphRef="b6ab5" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3933085501858733" Shape="None" GraphId="ce2aa"/>
+      <Anchor Position="0.23717472118959082" Shape="None" GraphId="a29c1"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c8452">
+    <Comment Source="KeggConverter">rn:R05052</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1796.0" Y="1216.0" GraphRef="b6ab5" RelX="0.0" RelY="-1.0"/>
+      <Point X="1906.0" Y="1299.0"/>
+      <Point X="1984.0" Y="1211.0"/>
+      <Point X="2004.0" Y="1226.0" GraphRef="e1b96" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5230144820588505" Shape="None" GraphId="bd07b"/>
+      <Anchor Position="0.774836269716816" Shape="None" GraphId="e292c"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b762e">
+    <Comment Source="KeggConverter">rn:R00558</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="448.0" GraphRef="b58d4" RelX="1.0" RelY="0.0"/>
+      <Point X="2232.0" Y="584.0" GraphRef="dbfef" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.9916700744483594" Shape="None" GraphId="bd158"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e05eb">
+    <Comment Source="KeggConverter">rn:R00111</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2232.0" Y="604.0" GraphRef="dbfef" RelX="0.0" RelY="1.0"/>
+      <Point X="2232.0" Y="624.0"/>
+      <Point X="2232.0" Y="684.0" GraphRef="fa48e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.45" Shape="None" GraphId="afe37"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a43be">
+    <Comment Source="KeggConverter">rn:R00565</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1358.0" Y="438.0" GraphRef="b58d4" RelX="0.0" RelY="-1.0"/>
+      <Point X="1586.0" Y="379.0"/>
+      <Point X="1586.0" Y="242.0" GraphRef="ba850" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8872566371681413" Shape="None" GraphId="cccdf"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d5cb9">
+    <Comment Source="KeggConverter">rn:R01883</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1626.0" Y="232.0" GraphRef="ba850" RelX="1.0" RelY="0.0"/>
+      <Point X="1646.0" Y="232.0"/>
+      <Point X="1756.0" Y="232.0" GraphRef="fb1b4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5076923076923077" Shape="None" GraphId="ebdc6"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e1071">
+    <Comment Source="KeggConverter">rn:R01881</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1836.0" Y="232.0" GraphRef="fb1b4" RelX="1.0" RelY="0.0"/>
+      <Point X="1856.0" Y="232.0"/>
+      <Point X="2004.0" Y="232.0" GraphRef="ec875" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.47619047619047616" Shape="None" GraphId="bc0c5"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a0179">
+    <Comment Source="KeggConverter">rn:R01989</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1018.0" Y="2118.0" GraphRef="a8e61" RelX="1.0" RelY="0.0"/>
+      <Point X="1038.0" Y="2118.0"/>
+      <Point X="2630.0" Y="2118.0" GraphRef="c6701" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.6377171215880894" Shape="None" GraphId="e3435"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bd69e">
+    <Comment Source="KeggConverter">rn:R00566</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="448.0" GraphRef="b58d4" RelX="1.0" RelY="0.0"/>
+      <Point X="2474.0" Y="1536.0" GraphRef="ec508" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.587344972496498" Shape="None" GraphId="b8a1c"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ccf0c">
+    <Comment Source="KeggConverter">rn:R01157</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2434.0" Y="1546.0" GraphRef="ec508" RelX="-1.0" RelY="0.0"/>
+      <Point X="2414.0" Y="1549.0"/>
+      <Point X="1014.0" Y="1552.0" GraphRef="c83ab" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.039424013457407044" Shape="None" GraphId="b40ee"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c816c">
+    <Comment Source="KeggConverter">rn:R00670</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="678.0" GraphRef="d7755" RelX="0.0" RelY="1.0"/>
+      <Point X="974.0" Y="698.0"/>
+      <Point X="974.0" Y="1542.0" GraphRef="c83ab" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.7523148148148148" Shape="None" GraphId="e7f51"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f8b46">
+    <Comment Source="KeggConverter">rn:R00245</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1088.0" Y="902.0" GraphRef="bb34c" RelX="-1.0" RelY="0.0"/>
+      <Point X="206.0" Y="1540.0" GraphRef="f1b37" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.47338999871726506" Shape="None" GraphId="d126d"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a9598">
+    <Comment Source="KeggConverter">rn:R00239</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="206.0" Y="1540.0" GraphRef="f1b37" RelX="0.0" RelY="-1.0"/>
+      <Point X="670.0" Y="962.0" GraphRef="cfcfc" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.813775528777895" Shape="None" GraphId="f98f1"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="aac2a">
+    <Comment Source="KeggConverter">rn:R03313</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="750.0" Y="962.0" GraphRef="cfcfc" RelX="1.0" RelY="0.0"/>
+      <Point X="770.0" Y="932.0"/>
+      <Point X="1088.0" Y="902.0" GraphRef="bb34c" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.28580156817487523" Shape="None" GraphId="e23d7"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fbaa9">
+    <Comment Source="KeggConverter">rn:R01151</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="934.0" Y="1552.0" GraphRef="c83ab" RelX="-1.0" RelY="0.0"/>
+      <Point X="914.0" Y="1742.0"/>
+      <Point X="934.0" Y="1932.0" GraphRef="f31e0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.48947368421052634" Shape="None" GraphId="f0f4a"/>
+      <Anchor Position="0.7315789473684211" Shape="None" GraphId="a6cf0"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ee840">
+    <Comment Source="KeggConverter">rn:R01920</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1592.0" Y="1802.0" GraphRef="cf93e" RelX="-1.0" RelY="0.0"/>
+      <Point X="1586.0" Y="1922.0" GraphRef="ba1d4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="af97a"/>
+      <Anchor Position="0.4380714879467992" Shape="None" GraphId="b0b98"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bad23">
+    <Comment Source="KeggConverter">rn:R00178</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1632.0" Y="1682.0" GraphRef="cddf2" RelX="0.0" RelY="1.0"/>
+      <Point X="1632.0" Y="1702.0"/>
+      <Point X="1632.0" Y="1792.0" GraphRef="cf93e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.509090909090909" Shape="None" GraphId="cc3bf"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b41af">
+    <Comment Source="KeggConverter">rn:R02869</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1632.0" Y="1812.0" GraphRef="cf93e" RelX="0.0" RelY="1.0"/>
+      <Point X="1756.0" Y="1932.0" GraphRef="f268f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="aef60"/>
+      <Anchor Position="0.6448146157979576" Shape="None" GraphId="e1e8d"/>
+      <Anchor Position="0.8140784524449217" Shape="None" GraphId="b1a78"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f5db1">
+    <Comment Source="KeggConverter">rn:R01154</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="934.0" Y="1552.0" GraphRef="c83ab" RelX="-1.0" RelY="0.0"/>
+      <Point X="914.0" Y="1612.0"/>
+      <Point X="508.0" Y="1672.0" GraphRef="c0713" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.9739631195245974" Shape="None" GraphId="a39e9"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b6e0c">
+    <Comment Source="KeggConverter">rn:R04025</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="548.0" Y="1682.0" GraphRef="c0713" RelX="0.0" RelY="1.0"/>
+      <Point X="548.0" Y="1702.0"/>
+      <Point X="548.0" Y="1792.0" GraphRef="bdb78" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.41818181818181815" Shape="None" GraphId="d52a8"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f044a">
+    <Comment Source="KeggConverter">rn:R05050</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="548.0" Y="1812.0" GraphRef="bdb78" RelX="0.0" RelY="1.0"/>
+      <Point X="548.0" Y="1832.0"/>
+      <Point X="548.0" Y="1922.0" GraphRef="be35a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.509090909090909" Shape="None" GraphId="ed4ec"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e0b72">
+    <Comment Source="KeggConverter">rn:R00557</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1318.0" Y="448.0" GraphRef="b58d4" RelX="-1.0" RelY="0.0"/>
+      <Point X="1298.0" Y="449.0"/>
+      <Point X="894.0" Y="450.0" GraphRef="f4a7e" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5096228723995997" Shape="None" GraphId="fd4e3"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f2369">
+    <Comment Source="KeggConverter">rn:R01991</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="978.0" Y="2108.0" GraphRef="a8e61" RelX="0.0" RelY="-1.0"/>
+      <Point X="1190.0" Y="2056.0" GraphRef="e9a43" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.610812625923438" Shape="None" GraphId="e674b"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ff37b">
+    <Comment Source="KeggConverter">rn:R04221</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1074.0" Y="1226.0" GraphRef="d9fa5" RelX="-1.0" RelY="0.0"/>
+      <Point X="1054.0" Y="1226.0"/>
+      <Point X="750.0" Y="1226.0" GraphRef="f1cd1" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5617283950617284" Shape="None" GraphId="f124c"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a0aa6">
+    <Comment Source="KeggConverter">rn:R02869</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1632.0" Y="1812.0" GraphRef="cf93e" RelX="0.0" RelY="1.0"/>
+      <Point X="1756.0" Y="1932.0" GraphRef="f268f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="f2e82"/>
+      <Anchor Position="0.6448146157979576" Shape="None" GraphId="c1477"/>
+      <Anchor Position="0.8140784524449217" Shape="None" GraphId="d6ac4"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c3fb2">
+    <Comment Source="KeggConverter">rn:R00150</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="190.0" Y="568.0" GraphRef="f9a42" RelX="0.0" RelY="-1.0"/>
+      <Point X="274.0" Y="613.0"/>
+      <Point X="304.0" Y="563.0"/>
+      <Point X="324.0" Y="578.0" GraphRef="cd5ac" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.6012405848471423" Shape="None" GraphId="a904a"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ad27b">
+    <Comment Source="KeggConverter">rn:R02649</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="404.0" Y="818.0" GraphRef="be70a" RelX="1.0" RelY="0.0"/>
+      <Point X="424.0" Y="818.0"/>
+      <Point X="508.0" Y="818.0" GraphRef="b2012" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.46153846153846156" Shape="None" GraphId="cf935"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c0d84">
+    <Comment Source="KeggConverter">rn:R03443</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="588.0" Y="818.0" GraphRef="b2012" RelX="1.0" RelY="0.0"/>
+      <Point X="608.0" Y="818.0"/>
+      <Point X="670.0" Y="818.0" GraphRef="bdf7b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4634146341463415" Shape="None" GraphId="ba1cc"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d00b8">
+    <Comment Source="KeggConverter">rn:R02283</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="670.0" Y="818.0" GraphRef="bdf7b" RelX="-1.0" RelY="0.0"/>
+      <Point X="650.0" Y="743.0"/>
+      <Point X="670.0" Y="668.0" GraphRef="a750d" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.44" Shape="None" GraphId="fa145"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="cc1dc">
+    <Comment Source="KeggConverter">rn:R00669</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="750.0" Y="668.0" GraphRef="a750d" RelX="1.0" RelY="0.0"/>
+      <Point X="770.0" Y="668.0"/>
+      <Point X="934.0" Y="668.0" GraphRef="d7755" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5434782608695652" Shape="None" GraphId="ecdd0"/>
+      <Anchor Position="0.5434782608695652" Shape="None" GraphId="b17d6"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d315d">
+    <Comment Source="KeggConverter">rn:R02282</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="710.0" Y="678.0" GraphRef="a750d" RelX="0.0" RelY="1.0"/>
+      <Point X="850.0" Y="845.0"/>
+      <Point X="914.0" Y="683.0"/>
+      <Point X="934.0" Y="668.0" GraphRef="d7755" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.6110271302410694" Shape="None" GraphId="df928"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a71fa">
+    <Comment Source="KeggConverter">rn:R01255</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="1022.0" GraphRef="ddc40" RelX="1.0" RelY="0.0"/>
+      <Point X="1418.0" Y="1022.0"/>
+      <Point X="1546.0" Y="1022.0" GraphRef="f29e7" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.43243243243243246" Shape="None" GraphId="eaf9f"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f0471">
+    <Comment Source="KeggConverter">rn:R02825</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1626.0" Y="1022.0" GraphRef="f29e7" RelX="1.0" RelY="0.0"/>
+      <Point X="1646.0" Y="1022.0"/>
+      <Point X="1756.0" Y="1022.0" GraphRef="c658f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5076923076923077" Shape="None" GraphId="fbebd"/>
+      <Anchor Position="0.5076923076923077" Shape="None" GraphId="b270a"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a1247">
+    <Comment Source="KeggConverter">rn:R02825</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1626.0" Y="1022.0" GraphRef="f29e7" RelX="1.0" RelY="0.0"/>
+      <Point X="1646.0" Y="1022.0"/>
+      <Point X="1756.0" Y="1022.0" GraphRef="c658f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5076923076923077" Shape="None" GraphId="bf99e"/>
+      <Anchor Position="0.5076923076923077" Shape="None" GraphId="c0a10"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a9148">
+    <Comment Source="KeggConverter">rn:R05053</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1796.0" Y="1236.0" GraphRef="b6ab5" RelX="0.0" RelY="1.0"/>
+      <Point X="1860.0" Y="1333.0"/>
+      <Point X="1984.0" Y="1241.0"/>
+      <Point X="2004.0" Y="1226.0" GraphRef="e1b96" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3042154782769116" Shape="None" GraphId="a189d"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ef795">
+    <Comment Source="KeggConverter">rn:R05052</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1796.0" Y="1216.0" GraphRef="b6ab5" RelX="0.0" RelY="-1.0"/>
+      <Point X="1906.0" Y="1299.0"/>
+      <Point X="1984.0" Y="1211.0"/>
+      <Point X="2004.0" Y="1226.0" GraphRef="e1b96" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5230144820588505" Shape="None" GraphId="dfc89"/>
+      <Anchor Position="0.774836269716816" Shape="None" GraphId="ab270"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e390c">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2084.0" Y="1226.0" GraphRef="e1b96" RelX="1.0" RelY="0.0"/>
+      <Point X="2104.0" Y="1185.0"/>
+      <Point X="2190.0" Y="1144.0" GraphRef="b5dd8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8" Shape="None" GraphId="e2b44"/>
+      <Anchor Position="0.49265033407572406" Shape="None" GraphId="f916c"/>
+      <Anchor Position="0.029398663697104473" Shape="None" GraphId="c538d"/>
+      <Anchor Position="0.5959910913140308" Shape="None" GraphId="c786e"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="dc3ed">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2084.0" Y="1226.0" GraphRef="e1b96" RelX="1.0" RelY="0.0"/>
+      <Point X="2104.0" Y="1185.0"/>
+      <Point X="2190.0" Y="1144.0" GraphRef="b5dd8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8" Shape="None" GraphId="b4aa7"/>
+      <Anchor Position="0.49265033407572406" Shape="None" GraphId="f8132"/>
+      <Anchor Position="0.029398663697104473" Shape="None" GraphId="a9af8"/>
+      <Anchor Position="0.5959910913140308" Shape="None" GraphId="e3d50"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a0d10">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2084.0" Y="1226.0" GraphRef="e1b96" RelX="1.0" RelY="0.0"/>
+      <Point X="2104.0" Y="1185.0"/>
+      <Point X="2190.0" Y="1144.0" GraphRef="b5dd8" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8" Shape="None" GraphId="d7409"/>
+      <Anchor Position="0.49265033407572406" Shape="None" GraphId="dd33b"/>
+      <Anchor Position="0.029398663697104473" Shape="None" GraphId="d42ac"/>
+      <Anchor Position="0.5959910913140308" Shape="None" GraphId="ab2a5"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="befd1">
+    <Comment Source="KeggConverter">rn:R00563</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1586.0" Y="582.0" GraphRef="c644a" RelX="0.0" RelY="-1.0"/>
+      <Point X="1588.0" Y="613.0"/>
+      <Point X="1358.0" Y="458.0" GraphRef="b58d4" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.09263657957244642" Shape="None" GraphId="ad9c0"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="cf173">
+    <Comment Source="KeggConverter">rn:R00562</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="448.0" GraphRef="b58d4" RelX="1.0" RelY="0.0"/>
+      <Point X="1796.0" Y="582.0" GraphRef="ead67" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.9679972782943979" Shape="None" GraphId="b333f"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="cd787">
+    <Comment Source="KeggConverter">rn:R00554</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="448.0" GraphRef="b58d4" RelX="1.0" RelY="0.0"/>
+      <Point X="2044.0" Y="582.0" GraphRef="b7833" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.986344171001121" Shape="None" GraphId="cf45b"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fe8ba">
+    <Comment Source="KeggConverter">rn:R01566</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1796.0" Y="242.0" GraphRef="fb1b4" RelX="0.0" RelY="1.0"/>
+      <Point X="1912.0" Y="336.0" GraphRef="e5306" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8" Shape="None" GraphId="c9053"/>
+      <Anchor Position="0.22770500628027945" Shape="None" GraphId="c2fa9"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ea63b">
+    <Comment Source="KeggConverter">rn:R01563</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2004.0" Y="386.0" GraphRef="ad940" RelX="-1.0" RelY="0.0"/>
+      <Point X="1984.0" Y="386.0"/>
+      <Point X="1836.0" Y="386.0" GraphRef="ea6ac" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5238095238095238" Shape="None" GraphId="c3485"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bec35">
+    <Comment Source="KeggConverter">rn:R03187</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2250.0" Y="386.0" GraphRef="bee7b" RelX="-1.0" RelY="0.0"/>
+      <Point X="2230.0" Y="386.0"/>
+      <Point X="2084.0" Y="386.0" GraphRef="ad940" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3373493975903614" Shape="None" GraphId="c661b"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c6a5c">
+    <Comment Source="KeggConverter">rn:R02922</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2290.0" Y="242.0" GraphRef="eda92" RelX="0.0" RelY="1.0"/>
+      <Point X="2290.0" Y="262.0"/>
+      <Point X="2290.0" Y="376.0" GraphRef="bee7b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3880597014925373" Shape="None" GraphId="ed05c"/>
+      <Anchor Position="0.3880597014925373" Shape="None" GraphId="d4b04"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d618d">
+    <Comment Source="KeggConverter">rn:R08197</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="448.0" GraphRef="b58d4" RelX="1.0" RelY="0.0"/>
+      <Point X="2670.0" Y="892.0" GraphRef="f26b3" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.9369562342985589" Shape="None" GraphId="cd010"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e9092">
+    <Comment Source="KeggConverter">rn:R03178</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2670.0" Y="912.0" GraphRef="f26b3" RelX="0.0" RelY="1.0"/>
+      <Point X="2670.0" Y="932.0"/>
+      <Point X="2670.0" Y="1396.0" GraphRef="a2591" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.6528925619834711" Shape="None" GraphId="e600b"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b9ef1">
+    <Comment Source="KeggConverter">rn:R03177</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2670.0" Y="1416.0" GraphRef="a2591" RelX="0.0" RelY="1.0"/>
+      <Point X="2670.0" Y="1436.0"/>
+      <Point X="2670.0" Y="2108.0" GraphRef="c6701" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4653179190751445" Shape="None" GraphId="badf5"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f8ad5">
+    <Comment Source="KeggConverter">rn:R01990</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2630.0" Y="2118.0" GraphRef="c6701" RelX="-1.0" RelY="0.0"/>
+      <Point X="2610.0" Y="2118.0"/>
+      <Point X="1018.0" Y="2118.0" GraphRef="a8e61" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.36228287841191065" Shape="None" GraphId="d2432"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b06b8">
+    <Comment Source="KeggConverter">rn:R03180</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2780.0" Y="1416.0" GraphRef="a3bbd" RelX="0.0" RelY="1.0"/>
+      <Point X="2782.0" Y="1823.0"/>
+      <Point X="2670.0" Y="2108.0" GraphRef="c6701" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.45340187875282106" Shape="None" GraphId="ac396"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f9d7f">
+    <Comment Source="KeggConverter">rn:R00559</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="448.0" GraphRef="b58d4" RelX="1.0" RelY="0.0"/>
+      <Point X="2780.0" Y="1396.0" GraphRef="a3bbd" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.7448262995313014" Shape="None" GraphId="bf3eb"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fe081">
+    <Comment Source="KeggConverter">rn:R01416</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2434.0" Y="1546.0" GraphRef="ec508" RelX="-1.0" RelY="0.0"/>
+      <Point X="2414.0" Y="1514.0"/>
+      <Point X="2270.0" Y="1482.0" GraphRef="d0a3b" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4243675787299957" Shape="None" GraphId="e9168"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b5519">
+    <Comment Source="KeggConverter">rn:R01152</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2190.0" Y="1482.0" GraphRef="d0a3b" RelX="-1.0" RelY="0.0"/>
+      <Point X="2170.0" Y="1517.0"/>
+      <Point X="1014.0" Y="1552.0" GraphRef="c83ab" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.1221175378780237" Shape="None" GraphId="c379c"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b966b">
+    <Comment Source="KeggConverter">rn:R00832</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1398.0" Y="448.0" GraphRef="b58d4" RelX="1.0" RelY="0.0"/>
+      <Point X="2380.0" Y="1396.0" GraphRef="a4dd8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.6121475361615606" Shape="None" GraphId="d40f2"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c6a9d">
+    <Comment Source="KeggConverter">rn:R04189</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2340.0" Y="1406.0" GraphRef="a4dd8" RelX="-1.0" RelY="0.0"/>
+      <Point X="2320.0" Y="1406.0"/>
+      <Point X="1836.0" Y="1406.0" GraphRef="e3614" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5833333333333334" Shape="None" GraphId="c1c78"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b6808">
+    <Comment Source="KeggConverter">rn:R04217</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1756.0" Y="1406.0" GraphRef="e3614" RelX="-1.0" RelY="0.0"/>
+      <Point X="1736.0" Y="1406.0"/>
+      <Point X="1398.0" Y="1406.0" GraphRef="b35e6" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.27932960893854747" Shape="None" GraphId="a4ed9"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="de2a1">
+    <Comment Source="KeggConverter">rn:R05049</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1318.0" Y="1406.0" GraphRef="b35e6" RelX="-1.0" RelY="0.0"/>
+      <Point X="1298.0" Y="1406.0"/>
+      <Point X="750.0" Y="1406.0" GraphRef="bb636" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.13028169014084506" Shape="None" GraphId="df66b"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fac8d">
+    <Comment Source="KeggConverter">rn:R00411</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="670.0" Y="1406.0" GraphRef="bb636" RelX="-1.0" RelY="0.0"/>
+      <Point X="206.0" Y="1540.0" GraphRef="f1b37" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4336597328211549" Shape="None" GraphId="cfae2"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f06af">
+    <Comment Source="KeggConverter">rn:R07414</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="206.0" Y="1560.0" GraphRef="f1b37" RelX="0.0" RelY="1.0"/>
+      <Point X="366.0" Y="1689.0"/>
+      <Point X="364.0" Y="1662.0" GraphRef="a2ea7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="def2d"/>
+      <Anchor Position="0.8416647817235917" Shape="None" GraphId="c4594"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c2611">
+    <Comment Source="KeggConverter">rn:R07415</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="364.0" Y="1682.0" GraphRef="a2ea7" RelX="0.0" RelY="1.0"/>
+      <Point X="364.0" Y="1702.0"/>
+      <Point X="364.0" Y="1792.0" GraphRef="b73f8" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.509090909090909" Shape="None" GraphId="fe2be"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d7326">
+    <Comment Source="KeggConverter">rn:R07419</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="364.0" Y="1942.0" GraphRef="bced6" RelX="0.0" RelY="1.0"/>
+      <Point X="366.0" Y="2069.0"/>
+      <Point X="206.0" Y="1560.0" GraphRef="f1b37" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8" Shape="None" GraphId="d712d"/>
+      <Anchor Position="0.0" Shape="None" GraphId="f2ce7"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bae76">
+    <Comment Source="KeggConverter">rn:R01151</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="934.0" Y="1552.0" GraphRef="c83ab" RelX="-1.0" RelY="0.0"/>
+      <Point X="914.0" Y="1742.0"/>
+      <Point X="934.0" Y="1932.0" GraphRef="f31e0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.48947368421052634" Shape="None" GraphId="ade9f"/>
+      <Anchor Position="0.7315789473684211" Shape="None" GraphId="d0367"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d8aa3">
+    <Comment Source="KeggConverter">rn:R01155</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="1562.0" GraphRef="c83ab" RelX="0.0" RelY="1.0"/>
+      <Point X="924.0" Y="1953.0"/>
+      <Point X="914.0" Y="1757.0"/>
+      <Point X="934.0" Y="1932.0" GraphRef="f31e0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8319133574007219" Shape="None" GraphId="eac9d"/>
+      <Anchor Position="0.5123465703971121" Shape="None" GraphId="ced25"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e5b97">
+    <Comment Source="KeggConverter">rn:R08714</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="1562.0" GraphRef="c83ab" RelX="0.0" RelY="1.0"/>
+      <Point X="974.0" Y="1582.0"/>
+      <Point X="974.0" Y="1922.0" GraphRef="f31e0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.85" Shape="None" GraphId="c7e12"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b958c">
+    <Comment Source="KeggConverter">rn:R01155</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="1562.0" GraphRef="c83ab" RelX="0.0" RelY="1.0"/>
+      <Point X="924.0" Y="1953.0"/>
+      <Point X="914.0" Y="1757.0"/>
+      <Point X="934.0" Y="1932.0" GraphRef="f31e0" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8319133574007219" Shape="None" GraphId="d9753"/>
+      <Anchor Position="0.5123465703971121" Shape="None" GraphId="ec3ab"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b3013">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="1942.0" GraphRef="f31e0" RelX="0.0" RelY="1.0"/>
+      <Point X="1024.0" Y="2107.0"/>
+      <Point X="978.0" Y="2108.0" GraphRef="a8e61" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.48890178441897614" Shape="None" GraphId="b6b54"/>
+      <Anchor Position="0.47439431307123237" Shape="None" GraphId="fabbe"/>
+      <Anchor Position="0.2528652255911796" Shape="None" GraphId="a7866"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="db9df">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="1942.0" GraphRef="f31e0" RelX="0.0" RelY="1.0"/>
+      <Point X="1024.0" Y="2107.0"/>
+      <Point X="978.0" Y="2108.0" GraphRef="a8e61" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.48890178441897614" Shape="None" GraphId="cea6d"/>
+      <Anchor Position="0.47439431307123237" Shape="None" GraphId="d42d0"/>
+      <Anchor Position="0.2528652255911796" Shape="None" GraphId="f42fc"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fbbae">
+    <Comment Source="KeggConverter">rn:R01156</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="934.0" Y="1552.0" GraphRef="c83ab" RelX="-1.0" RelY="0.0"/>
+      <Point X="548.0" Y="1662.0" GraphRef="c0713" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8405919451755476" Shape="None" GraphId="d2b4e"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f9a49">
+    <Comment Source="KeggConverter">rn:R01987</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="548.0" Y="1942.0" GraphRef="be35a" RelX="0.0" RelY="1.0"/>
+      <Point X="938.0" Y="2118.0" GraphRef="a8e61" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.04463719985142781" Shape="None" GraphId="b00b8"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c2fad">
+    <Comment Source="KeggConverter">rn:R00774</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1348.0" Y="694.0" GraphRef="ddbae" RelX="1.0" RelY="0.0"/>
+      <Point X="1368.0" Y="694.0"/>
+      <Point X="1546.0" Y="694.0" GraphRef="aff94" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5757575757575758" Shape="None" GraphId="cff33"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="edca2">
+    <Comment Source="KeggConverter">rn:R00005</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1626.0" Y="694.0" GraphRef="aff94" RelX="1.0" RelY="0.0"/>
+      <Point X="1646.0" Y="694.0"/>
+      <Point X="1756.0" Y="694.0" GraphRef="f632b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5076923076923077" Shape="None" GraphId="ed348"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e34cc">
+    <Comment Source="KeggConverter">rn:R00131</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1348.0" Y="694.0" GraphRef="ddbae" RelX="1.0" RelY="0.0"/>
+      <Point X="1368.0" Y="694.0"/>
+      <Point X="1756.0" Y="694.0" GraphRef="f632b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5833333333333334" Shape="None" GraphId="b0304"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b6358">
+    <Comment Source="KeggConverter">rn:R00552</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1318.0" Y="448.0" GraphRef="b58d4" RelX="-1.0" RelY="0.0"/>
+      <Point X="1298.0" Y="449.0"/>
+      <Point X="894.0" Y="450.0" GraphRef="f4a7e" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5091556346645899" Shape="None" GraphId="cbe81"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bd400">
+    <Comment Source="KeggConverter">rn:R00671</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="974.0" Y="678.0" GraphRef="d7755" RelX="0.0" RelY="1.0"/>
+      <Point X="1358.0" Y="903.0"/>
+      <Point X="1358.0" Y="1012.0" GraphRef="ddc40" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.7498339845258133" Shape="None" GraphId="dccaf"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d642d">
+    <Comment Source="KeggConverter">rn:R00243</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="206.0" Y="1540.0" GraphRef="f1b37" RelX="0.0" RelY="-1.0"/>
+      <Point X="188.0" Y="801.0"/>
+      <Point X="190.0" Y="588.0" GraphRef="f9a42" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8656194846452525" Shape="None" GraphId="dbebf"/>
+      <Anchor Position="0.8370631839039887" Shape="None" GraphId="ec72f"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b8fdf">
+    <Comment Source="KeggConverter">rn:R00248</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="206.0" Y="1540.0" GraphRef="f1b37" RelX="0.0" RelY="-1.0"/>
+      <Point X="240.0" Y="839.0"/>
+      <Point X="190.0" Y="588.0" GraphRef="f9a42" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.8247970349452877" Shape="None" GraphId="c55b4"/>
+      <Anchor Position="0.8370631839039887" Shape="None" GraphId="d9dfe"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d1965">
+    <Comment Source="KeggConverter">rn:R01992</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1018.0" Y="2118.0" GraphRef="a8e61" RelX="1.0" RelY="0.0"/>
+      <Point X="1038.0" Y="2087.0"/>
+      <Point X="1190.0" Y="2056.0" GraphRef="e9a43" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4758884767260982" Shape="None" GraphId="f9616"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fbc13">
+    <Comment Source="KeggConverter">rn:R01884</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2250.0" Y="232.0" GraphRef="eda92" RelX="-1.0" RelY="0.0"/>
+      <Point X="2230.0" Y="217.0"/>
+      <Point X="2034.0" Y="223.0"/>
+      <Point X="1796.0" Y="222.0" GraphRef="fb1b4" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.48009853745587167" Shape="None" GraphId="d0087"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ec320">
+    <Comment Source="KeggConverter">rn:R01915</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1546.0" Y="1932.0" GraphRef="ba1d4" RelX="-1.0" RelY="0.0"/>
+      <Point X="1526.0" Y="1932.0"/>
+      <Point X="1014.0" Y="1932.0" GraphRef="f31e0" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.46616541353383456" Shape="None" GraphId="d07fa"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e9ba6">
+    <Comment Source="KeggConverter">rn:R02575</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1546.0" Y="232.0" GraphRef="ba850" RelX="-1.0" RelY="0.0"/>
+      <Point X="1526.0" Y="232.0"/>
+      <Point X="1398.0" Y="232.0" GraphRef="b926f" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5675675675675675" Shape="None" GraphId="e1870"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c9ff1">
+    <Comment Source="KeggConverter">rn:R03296</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1318.0" Y="1226.0" GraphRef="cc49d" RelX="-1.0" RelY="0.0"/>
+      <Point X="1298.0" Y="1226.0"/>
+      <Point X="1154.0" Y="1226.0" GraphRef="d9fa5" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.45121951219512196" Shape="None" GraphId="feab9"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fbd88">
+    <Comment Source="KeggConverter">rn:R02280</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="670.0" Y="1226.0" GraphRef="f1cd1" RelX="-1.0" RelY="0.0"/>
+      <Point X="650.0" Y="1226.0"/>
+      <Point X="588.0" Y="1226.0" GraphRef="c8116" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.5365853658536586" Shape="None" GraphId="cff0f"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ea59a">
+    <Comment Source="KeggConverter">rn:R02922</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2290.0" Y="242.0" GraphRef="eda92" RelX="0.0" RelY="1.0"/>
+      <Point X="2290.0" Y="262.0"/>
+      <Point X="2290.0" Y="376.0" GraphRef="bee7b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3880597014925373" Shape="None" GraphId="a9652"/>
+      <Anchor Position="0.3880597014925373" Shape="None" GraphId="a3539"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d2e19">
+    <Comment Source="KeggConverter">rn:R09081</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1358.0" Y="1812.0" GraphRef="b1837" RelX="0.0" RelY="1.0"/>
+      <Point X="1546.0" Y="1932.0" GraphRef="ba1d4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.09649404953361244" Shape="None" GraphId="f535e"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d9c19">
+    <Comment Source="KeggConverter">rn:R09082</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="1230.0" Y="1812.0" GraphRef="a3068" RelX="0.0" RelY="1.0"/>
+      <Point X="1230.0" Y="1832.0"/>
+      <Point X="1230.0" Y="1894.0" GraphRef="b0f2e" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4634146341463415" Shape="None" GraphId="b6f07"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f156b">
+    <Comment Source="KeggConverter">rn:R07245</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="710.0" Y="658.0" GraphRef="a750d" RelX="0.0" RelY="-1.0"/>
+      <Point X="710.0" Y="638.0"/>
+      <Point X="710.0" Y="460.0" GraphRef="c571d" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="a0814"/>
+      <Anchor Position="0.6565656565656566" Shape="None" GraphId="a0640"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f9825">
+    <Comment Source="KeggConverter">rn:R08937</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="364.0" Y="568.0" GraphRef="cd5ac" RelX="0.0" RelY="-1.0"/>
+      <Point X="550.0" Y="537.0"/>
+      <Point X="548.0" Y="372.0" GraphRef="c2ed5" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="b616f"/>
+      <Anchor Position="0.7881337170688509" Shape="None" GraphId="fa627"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d880d">
+    <Comment Source="KeggConverter">rn:R09107</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="750.0" Y="450.0" GraphRef="c571d" RelX="1.0" RelY="0.0"/>
+      <Point X="770.0" Y="450.0"/>
+      <Point X="814.0" Y="450.0" GraphRef="f4a7e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.3125" Shape="None" GraphId="c49e7"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bc936">
+    <Comment Source="KeggConverter">rn:R00256</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="184.0" Y="372.0" GraphRef="fb131" RelX="0.0" RelY="1.0"/>
+      <Point X="234.0" Y="521.0"/>
+      <Point X="190.0" Y="568.0" GraphRef="f9a42" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.33402683865598676" Shape="None" GraphId="f00f2"/>
+      <Anchor Position="0.26745032768126503" Shape="None" GraphId="e7b27"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fe47c">
+    <Comment Source="KeggConverter">rn:R09256</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2262.0" Y="1672.0" GraphRef="ba2f5" RelX="-1.0" RelY="0.0"/>
+      <Point X="2242.0" Y="1737.0"/>
+      <Point X="2190.0" Y="1802.0" GraphRef="acb21" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="c1534"/>
+      <Anchor Position="0.6689005614924837" Shape="None" GraphId="de7e2"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fb007">
+    <Comment Source="KeggConverter">rn:R01617</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2302.0" Y="1682.0" GraphRef="ba2f5" RelX="0.0" RelY="1.0"/>
+      <Point X="2430.0" Y="1823.0"/>
+      <Point X="2388.0" Y="1792.0" GraphRef="ec3bc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="b5a07"/>
+      <Anchor Position="0.880590890439064" Shape="None" GraphId="ee6c3"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ef755">
+    <Comment Source="KeggConverter">rn:R09257</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2260.0" Y="1926.0" GraphRef="eb738" RelX="-1.0" RelY="0.0"/>
+      <Point X="2240.0" Y="1989.0"/>
+      <Point X="2190.0" Y="2052.0" GraphRef="cdff9" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="ae00b"/>
+      <Anchor Position="0.8099730458221015" Shape="None" GraphId="ece54"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="afae6">
+    <Comment Source="KeggConverter">rn:R09255</Comment>
+    <Graphics ConnectorType="Elbow" ZOrder="0" LineThickness="1.0">
+      <Point X="2300.0" Y="1936.0" GraphRef="eb738" RelX="0.0" RelY="1.0"/>
+      <Point X="2484.0" Y="2069.0"/>
+      <Point X="2382.0" Y="2044.0" GraphRef="e0fed" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.2" Shape="None" GraphId="a92a2"/>
+      <Anchor Position="1.0" Shape="None" GraphId="c7547"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ef184">
+    <Comment Source="KeggConverter">maplink;279;278</Comment>
+    <Comment Source="KeggConverter">compound; 20</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="364.0" Y="568.0" GraphRef="cd5ac" RelX="0.0" RelY="-1.0"/>
+      <Point X="372.0" Y="298.0" GraphRef="b030a" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="db744">
+    <Comment Source="KeggConverter">maplink;279;171</Comment>
+    <Comment Source="KeggConverter">compound; 20</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="366.0" Y="680.0" GraphRef="b5317" RelX="0.0" RelY="-1.0"/>
+      <Point X="364.0" Y="588.0" GraphRef="cd5ac" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ebc3c">
+    <Comment Source="KeggConverter">maplink;173;172</Comment>
+    <Comment Source="KeggConverter">compound; 42</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="832.0" Y="190.0" GraphRef="b4b75" RelX="0.0" RelY="1.0"/>
+      <Point X="826.0" Y="308.0" GraphRef="e6402" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c673f">
+    <Comment Source="KeggConverter">maplink;171;276</Comment>
+    <Comment Source="KeggConverter">compound; 18</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="658.0" GraphRef="d7755" RelX="0.0" RelY="-1.0"/>
+      <Point X="1112.0" Y="568.0" GraphRef="caa00" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fd0cc">
+    <Comment Source="KeggConverter">maplink;265;276</Comment>
+    <Comment Source="KeggConverter">compound; 17</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1318.0" Y="448.0" GraphRef="b58d4" RelX="-1.0" RelY="0.0"/>
+      <Point X="1152.0" Y="558.0" GraphRef="caa00" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b37a7">
+    <Comment Source="KeggConverter">maplink;174;275</Comment>
+    <Comment Source="KeggConverter">compound; 43</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1358.0" Y="324.0" GraphRef="ca8a5" RelX="0.0" RelY="1.0"/>
+      <Point X="1420.0" Y="380.0" GraphRef="b6dbf" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b0797">
+    <Comment Source="KeggConverter">maplink;277;308</Comment>
+    <Comment Source="KeggConverter">compound; 22</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="520.0" Y="2176.0" GraphRef="a6fb3" RelX="-1.0" RelY="0.0"/>
+      <Point X="206.0" Y="1560.0" GraphRef="f1b37" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a76bd">
+    <Comment Source="KeggConverter">maplink;277;252</Comment>
+    <Comment Source="KeggConverter">compound; 122</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="600.0" Y="2176.0" GraphRef="a6fb3" RelX="1.0" RelY="0.0"/>
+      <Point X="938.0" Y="2118.0" GraphRef="a8e61" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bb64e">
+    <Comment Source="KeggConverter">maplink;255;287</Comment>
+    <Comment Source="KeggConverter">compound; 138</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1836.0" Y="1932.0" GraphRef="f268f" RelX="1.0" RelY="0.0"/>
+      <Point X="1926.0" Y="1928.0" GraphRef="f9c64" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b94ad">
+    <Comment Source="KeggConverter">maplink;255;281</Comment>
+    <Comment Source="KeggConverter">compound; 138</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1796.0" Y="1942.0" GraphRef="f268f" RelX="0.0" RelY="1.0"/>
+      <Point X="1798.0" Y="2032.0" GraphRef="db392" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fdb78">
+    <Comment Source="KeggConverter">maplink;248;312</Comment>
+    <Comment Source="KeggConverter">compound; 23</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="934.0" Y="1552.0" GraphRef="c83ab" RelX="-1.0" RelY="0.0"/>
+      <Point X="732.0" Y="1500.0" GraphRef="fb089" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f8c84">
+    <Comment Source="KeggConverter">maplink;205;274</Comment>
+    <Comment Source="KeggConverter">compound; 115</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2230.0" Y="1134.0" GraphRef="b5dd8" RelX="0.0" RelY="-1.0"/>
+      <Point X="2224.0" Y="1022.0" GraphRef="e8c5b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f6c68">
+    <Comment Source="KeggConverter">maplink;205;274</Comment>
+    <Comment Source="KeggConverter">compound; 41</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2302.0" Y="1216.0" GraphRef="f3455" RelX="0.0" RelY="-1.0"/>
+      <Point X="2264.0" Y="1032.0" GraphRef="e8c5b" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e883e">
+    <Comment Source="KeggConverter">maplink;195;280</Comment>
+    <Comment Source="KeggConverter">compound; 107</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1836.0" Y="1022.0" GraphRef="c658f" RelX="1.0" RelY="0.0"/>
+      <Point X="2006.0" Y="1022.0" GraphRef="c2e88" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e48a0">
+    <Comment Source="KeggConverter">rn:R00256</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="426.0" GraphRef="f383f" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="433.47342140850935" GraphRef="acd0d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a2d3f">
+    <Comment Source="KeggConverter">rn:R00256</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="134.0" Y="398.0" GraphRef="f2156" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="420.02496619161553" GraphRef="ea641" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fafdd">
+    <Comment Source="KeggConverter">rn:R00253</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="72.0" Y="498.0" GraphRef="c0ba1" RelX="0.0" RelY="-1.0"/>
+      <Point X="130.0" Y="514.538164996145" GraphRef="dc929" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fd7d5">
+    <Comment Source="KeggConverter">rn:R00149</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="570.0" GraphRef="fb1f0" RelX="0.0" RelY="-1.0"/>
+      <Point X="274.0" Y="578.0" GraphRef="bf341" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b232f">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="934.0" Y="668.0" GraphRef="d7755" RelX="-1.0" RelY="0.0"/>
+      <Point X="518.6" Y="578.0" GraphRef="e8a2d" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a246a">
+    <Comment Source="KeggConverter">rn:R01398</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="870.0" Y="518.0" GraphRef="e5f34" RelX="0.0" RelY="-1.0"/>
+      <Point X="854.0" Y="462.1625697704506" GraphRef="d5a1d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e7a6e">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="826.0" Y="328.0" GraphRef="e6402" RelX="0.0" RelY="1.0"/>
+      <Point X="854.0" Y="353.4" GraphRef="e534f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="edd3c">
+    <Comment Source="KeggConverter">rn:R01954</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="932.0" Y="264.0" GraphRef="dc956" RelX="0.0" RelY="-1.0"/>
+      <Point X="870.0403498138367" Y="206.0" GraphRef="be424" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c4cfb">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="1252.4" Y="315.0" GraphRef="c9902" RelX="0.0" RelY="1.0"/>
+      <Point X="1318.0" Y="448.0" GraphRef="b58d4" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d38bb">
+    <Comment Source="KeggConverter">rn:R01086</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1276.0" Y="264.0" GraphRef="b2bc5" RelX="0.0" RelY="-1.0"/>
+      <Point X="1246.7367208498656" Y="314.0" GraphRef="f0157" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c410f">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="975.0" Y="547.2" GraphRef="ee6ab" RelX="1.0" RelY="0.0"/>
+      <Point X="1268.0" Y="694.0" GraphRef="ddbae" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="abed3">
+    <Comment Source="KeggConverter">rn:R00551</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1328.0" Y="528.0" GraphRef="fc0ca" RelX="0.0" RelY="-1.0"/>
+      <Point X="1252.3805560343765" Y="448.0" GraphRef="ae7c1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c48f3">
+    <Comment Source="KeggConverter">rn:R00259</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="808.0" GraphRef="d85d0" RelX="0.0" RelY="-1.0"/>
+      <Point X="314.74004872871865" Y="818.0" GraphRef="c9d75" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b78d4">
+    <Comment Source="KeggConverter">rn:R00669</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="850.0" Y="640.0" GraphRef="cbfe9" RelX="0.0" RelY="-1.0"/>
+      <Point X="850.0" Y="668.0" GraphRef="f3781" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c6d30">
+    <Comment Source="KeggConverter">rn:R00669</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="850.0" Y="682.0" GraphRef="e5dcd" RelX="0.0" RelY="-1.0"/>
+      <Point X="850.0" Y="668.0" GraphRef="e8e8a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="dfcd3">
+    <Comment Source="KeggConverter">rn:R00667</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1026.0" Y="808.0" GraphRef="a628d" RelX="0.0" RelY="-1.0"/>
+      <Point X="974.0" Y="877.5083897929463" GraphRef="f0c17" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f2343">
+    <Comment Source="KeggConverter">rn:R01253</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1244.0" Y="1078.0" GraphRef="aeea9" RelX="0.0" RelY="-1.0"/>
+      <Point X="1250.4088397790056" Y="1052.0" GraphRef="c9599" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fa49e">
+    <Comment Source="KeggConverter">rn:R00135</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1306.0" Y="954.0" GraphRef="fab69" RelX="0.0" RelY="-1.0"/>
+      <Point X="1274.0" Y="990.2068965517242" GraphRef="b7274" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="afc73">
+    <Comment Source="KeggConverter">rn:R01252</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1358.0" Y="1088.0" GraphRef="acd22" RelX="0.0" RelY="-1.0"/>
+      <Point X="1358.0" Y="1126.0" GraphRef="db8bb" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c6353">
+    <Comment Source="KeggConverter">rn:R02894</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1586.0" Y="954.0" GraphRef="fdb5a" RelX="0.0" RelY="-1.0"/>
+      <Point X="1586.0" Y="964.0" GraphRef="feb5f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="dac49">
+    <Comment Source="KeggConverter">rn:R03295</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1462.0" Y="1218.0" GraphRef="af935" RelX="0.0" RelY="-1.0"/>
+      <Point X="1462.0" Y="1226.0" GraphRef="b3518" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f3710">
+    <Comment Source="KeggConverter">rn:R05051</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1296.0" GraphRef="c91ed" RelX="0.0" RelY="-1.0"/>
+      <Point X="1646.0" Y="1255.5390334572492" GraphRef="ddf43" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d04fc">
+    <Comment Source="KeggConverter">rn:R05051</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1338.0" GraphRef="ceb48" RelX="0.0" RelY="-1.0"/>
+      <Point X="1646.0" Y="1291.4498141263941" GraphRef="a26c2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d5b19">
+    <Comment Source="KeggConverter">rn:R05051</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1296.0" GraphRef="c91ed" RelX="0.0" RelY="-1.0"/>
+      <Point X="1646.0" Y="1255.5390334572492" GraphRef="ce2aa" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b6e36">
+    <Comment Source="KeggConverter">rn:R05051</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1338.0" GraphRef="ceb48" RelX="0.0" RelY="-1.0"/>
+      <Point X="1646.0" Y="1291.4498141263941" GraphRef="a29c1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a7601">
+    <Comment Source="KeggConverter">rn:R05052</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1906.0" Y="1168.0" GraphRef="ba77a" RelX="0.0" RelY="-1.0"/>
+      <Point X="1910.9377363711835" Y="1196.0" GraphRef="bd07b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d9e29">
+    <Comment Source="KeggConverter">rn:R05052</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1956.0" Y="1238.0" GraphRef="ec458" RelX="0.0" RelY="-1.0"/>
+      <Point X="1975.9077575869385" Y="1196.0" GraphRef="e292c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ba1bd">
+    <Comment Source="KeggConverter">rn:R00558</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2234.0" Y="490.0" GraphRef="f11b8" RelX="0.0" RelY="-1.0"/>
+      <Point X="2232.0" Y="575.9199722149086" GraphRef="bd158" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e4fed">
+    <Comment Source="KeggConverter">rn:R00111</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2234.0" Y="602.0" GraphRef="f820e" RelX="0.0" RelY="-1.0"/>
+      <Point X="2232.0" Y="640.0" GraphRef="afe37" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c6534">
+    <Comment Source="KeggConverter">rn:R00565</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1586.0" Y="284.0" GraphRef="f93a7" RelX="0.0" RelY="-1.0"/>
+      <Point X="1586.0" Y="289.8031858407081" GraphRef="cccdf" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="dfd0f">
+    <Comment Source="KeggConverter">rn:R01883</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="224.0" GraphRef="d02fc" RelX="0.0" RelY="-1.0"/>
+      <Point X="1692.0" Y="232.0" GraphRef="ebdc6" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f3930">
+    <Comment Source="KeggConverter">rn:R01881</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1916.0" Y="176.0" GraphRef="d948e" RelX="0.0" RelY="-1.0"/>
+      <Point X="1916.0" Y="232.0" GraphRef="bc0c5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d0bd5">
+    <Comment Source="KeggConverter">rn:R01989</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2046.0" Y="2168.0" GraphRef="f0e6f" RelX="0.0" RelY="-1.0"/>
+      <Point X="2046.0" Y="2118.0" GraphRef="e3435" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c7abf">
+    <Comment Source="KeggConverter">rn:R00566</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2482.0" Y="630.0" GraphRef="e4ce1" RelX="0.0" RelY="-1.0"/>
+      <Point X="2474.0" Y="643.0145204824216" GraphRef="b8a1c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="efd52">
+    <Comment Source="KeggConverter">rn:R01157</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2378.0" Y="1532.0" GraphRef="aa532" RelX="0.0" RelY="-1.0"/>
+      <Point X="2383.7813568097376" Y="1552.0" GraphRef="b40ee" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b830b">
+    <Comment Source="KeggConverter">rn:R00670</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="972.0" Y="1318.0" GraphRef="f9248" RelX="0.0" RelY="-1.0"/>
+      <Point X="974.0" Y="1328.0" GraphRef="e7f51" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e4737">
+    <Comment Source="KeggConverter">rn:R00245</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="452.0" Y="892.0" GraphRef="d9219" RelX="0.0" RelY="-1.0"/>
+      <Point X="368.4472019497571" Y="902.0" GraphRef="d126d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e4999">
+    <Comment Source="KeggConverter">rn:R00239</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="452.0" Y="954.0" GraphRef="f8f99" RelX="0.0" RelY="-1.0"/>
+      <Point X="475.9541009865667" Y="962.0" GraphRef="f98f1" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d7f74">
+    <Comment Source="KeggConverter">rn:R03313</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="850.0" Y="954.0" GraphRef="b5742" RelX="0.0" RelY="-1.0"/>
+      <Point X="803.7490241336003" Y="902.0" GraphRef="e23d7" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a8070">
+    <Comment Source="KeggConverter">rn:R01151</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="728.0" Y="1728.0" GraphRef="ab9e1" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1737.578947368421" GraphRef="f0f4a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a7340">
+    <Comment Source="KeggConverter">rn:R01151</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="1820.0" GraphRef="a9c09" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1839.2631578947369" GraphRef="a6cf0" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a8af5">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="1562.0" GraphRef="c83ab" RelX="0.0" RelY="1.0"/>
+      <Point X="1585.0" Y="1821.2" GraphRef="af97a" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c50dc">
+    <Comment Source="KeggConverter">rn:R01920</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1578.0" Y="1844.0" GraphRef="a33ee" RelX="0.0" RelY="-1.0"/>
+      <Point X="1586.0" Y="1851.1970074812966" GraphRef="b0b98" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="dfc02">
+    <Comment Source="KeggConverter">rn:R00178</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1642.0" Y="1728.0" GraphRef="f5bc3" RelX="0.0" RelY="-1.0"/>
+      <Point X="1632.0" Y="1738.0" GraphRef="cc3bf" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c31de">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="1586.0" Y="1922.0" GraphRef="ba1d4" RelX="0.0" RelY="-1.0"/>
+      <Point X="1632.0" Y="1861.8" GraphRef="aef60" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bc35a">
+    <Comment Source="KeggConverter">rn:R02869</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1900.0" GraphRef="c6885" RelX="0.0" RelY="-1.0"/>
+      <Point X="1669.3347662547017" Y="1932.0" GraphRef="e1e8d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b1430">
+    <Comment Source="KeggConverter">rn:R02869</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1942.0" GraphRef="a4f79" RelX="0.0" RelY="-1.0"/>
+      <Point X="1710.635142396561" Y="1932.0" GraphRef="b1a78" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e1f46">
+    <Comment Source="KeggConverter">rn:R01154</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="498.0" Y="1566.0" GraphRef="aa402" RelX="0.0" RelY="-1.0"/>
+      <Point X="522.2161367395698" Y="1672.0" GraphRef="a39e9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="eae04">
+    <Comment Source="KeggConverter">rn:R04025</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="550.0" Y="1700.0" GraphRef="effc9" RelX="0.0" RelY="-1.0"/>
+      <Point X="548.0" Y="1728.0" GraphRef="d52a8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="da68b">
+    <Comment Source="KeggConverter">rn:R05050</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="550.0" Y="1810.0" GraphRef="ef88e" RelX="0.0" RelY="-1.0"/>
+      <Point X="548.0" Y="1868.0" GraphRef="ed4ec" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ab6f4">
+    <Comment Source="KeggConverter">rn:R00557</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1102.0" Y="428.0" GraphRef="b3104" RelX="0.0" RelY="-1.0"/>
+      <Point X="1102.9006563577705" Y="450.0" GraphRef="fd4e3" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e1946">
+    <Comment Source="KeggConverter">rn:R01991</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1104.0" Y="2052.0" GraphRef="b6e21" RelX="0.0" RelY="-1.0"/>
+      <Point X="1087.2545332437876" Y="2056.0" GraphRef="e674b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="affaa">
+    <Comment Source="KeggConverter">rn:R04221</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="892.0" Y="1218.0" GraphRef="ba78c" RelX="0.0" RelY="-1.0"/>
+      <Point X="892.0" Y="1226.0" GraphRef="f124c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="cfa40">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="1586.0" Y="1922.0" GraphRef="ba1d4" RelX="0.0" RelY="-1.0"/>
+      <Point X="1632.0" Y="1861.8" GraphRef="f2e82" RelX="0.0" RelY="1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="cd9c0">
+    <Comment Source="KeggConverter">rn:R02869</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1900.0" GraphRef="c6885" RelX="0.0" RelY="-1.0"/>
+      <Point X="1669.3347662547017" Y="1932.0" GraphRef="c1477" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d6e53">
+    <Comment Source="KeggConverter">rn:R02869</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="1942.0" GraphRef="a4f79" RelX="0.0" RelY="-1.0"/>
+      <Point X="1710.635142396561" Y="1932.0" GraphRef="d6ac4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="cec38">
+    <Comment Source="KeggConverter">rn:R00150</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="274.0" Y="518.0" GraphRef="ba7ba" RelX="0.0" RelY="-1.0"/>
+      <Point X="280.6282676118742" Y="548.0" GraphRef="a904a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b9d78">
+    <Comment Source="KeggConverter">rn:R02649</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="452.0" Y="780.0" GraphRef="ac3eb" RelX="0.0" RelY="-1.0"/>
+      <Point X="452.0" Y="818.0" GraphRef="cf935" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e8abc">
+    <Comment Source="KeggConverter">rn:R03443</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="626.0" Y="780.0" GraphRef="cc198" RelX="0.0" RelY="-1.0"/>
+      <Point X="626.0" Y="818.0" GraphRef="ba1cc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ae15d">
+    <Comment Source="KeggConverter">rn:R02283</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="666.0" Y="714.0" GraphRef="a0eb9" RelX="0.0" RelY="-1.0"/>
+      <Point X="650.0" Y="754.4" GraphRef="fa145" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a19ca">
+    <Comment Source="KeggConverter">rn:R00669</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="850.0" Y="640.0" GraphRef="cbfe9" RelX="0.0" RelY="-1.0"/>
+      <Point X="850.0" Y="668.0" GraphRef="ecdd0" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c4443">
+    <Comment Source="KeggConverter">rn:R00669</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="850.0" Y="682.0" GraphRef="e5dcd" RelX="0.0" RelY="-1.0"/>
+      <Point X="850.0" Y="668.0" GraphRef="b17d6" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f00ac">
+    <Comment Source="KeggConverter">rn:R02282</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="850.0" Y="714.0" GraphRef="c138f" RelX="0.0" RelY="-1.0"/>
+      <Point X="857.421433686053" Y="698.0" GraphRef="df928" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a3272">
+    <Comment Source="KeggConverter">rn:R01255</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1462.0" Y="1014.0" GraphRef="a269f" RelX="0.0" RelY="-1.0"/>
+      <Point X="1462.0" Y="1022.0" GraphRef="eaf9f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f143d">
+    <Comment Source="KeggConverter">rn:R02825</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="992.0" GraphRef="a3702" RelX="0.0" RelY="-1.0"/>
+      <Point X="1692.0" Y="1022.0" GraphRef="fbebd" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a7201">
+    <Comment Source="KeggConverter">rn:R02825</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="986.0" GraphRef="a10ed" RelX="0.0" RelY="-1.0"/>
+      <Point X="1692.0" Y="1022.0" GraphRef="b270a" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e43e5">
+    <Comment Source="KeggConverter">rn:R02825</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="992.0" GraphRef="a3702" RelX="0.0" RelY="-1.0"/>
+      <Point X="1692.0" Y="1022.0" GraphRef="bf99e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="df9cd">
+    <Comment Source="KeggConverter">rn:R02825</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="986.0" GraphRef="a10ed" RelX="0.0" RelY="-1.0"/>
+      <Point X="1692.0" Y="1022.0" GraphRef="c0a10" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c2845">
+    <Comment Source="KeggConverter">rn:R05053</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1860.0" Y="1238.0" GraphRef="a73c1" RelX="0.0" RelY="-1.0"/>
+      <Point X="1854.4875933954431" Y="1256.0" GraphRef="a189d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d942a">
+    <Comment Source="KeggConverter">rn:R05052</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1906.0" Y="1168.0" GraphRef="ba77a" RelX="0.0" RelY="-1.0"/>
+      <Point X="1910.9377363711835" Y="1196.0" GraphRef="dfc89" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a3b52">
+    <Comment Source="KeggConverter">rn:R05052</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1956.0" Y="1238.0" GraphRef="ec458" RelX="0.0" RelY="-1.0"/>
+      <Point X="1975.9077575869385" Y="1196.0" GraphRef="ab270" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c12cf">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="2153.4" Y="1144.0" GraphRef="e2b44" RelX="1.0" RelY="0.0"/>
+      <Point X="2262.0" Y="1226.0" GraphRef="f3455" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="feccb">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2152.0" Y="1168.0" GraphRef="ffa53" RelX="0.0" RelY="-1.0"/>
+      <Point X="2104.0" Y="1153.381737193764" GraphRef="f916c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e4b74">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2106.0" Y="1238.0" GraphRef="a2f74" RelX="0.0" RelY="-1.0"/>
+      <Point X="2089.5269487750556" Y="1226.0" GraphRef="c538d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e95d8">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2202.0" Y="1238.0" GraphRef="e00eb" RelX="0.0" RelY="-1.0"/>
+      <Point X="2114.0463251670376" Y="1144.0" GraphRef="c786e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c58c4">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="2153.4" Y="1144.0" GraphRef="b4aa7" RelX="1.0" RelY="0.0"/>
+      <Point X="2262.0" Y="1226.0" GraphRef="f3455" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c0947">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2152.0" Y="1168.0" GraphRef="ffa53" RelX="0.0" RelY="-1.0"/>
+      <Point X="2104.0" Y="1153.381737193764" GraphRef="f8132" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fc91d">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2106.0" Y="1238.0" GraphRef="a2f74" RelX="0.0" RelY="-1.0"/>
+      <Point X="2089.5269487750556" Y="1226.0" GraphRef="a9af8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f223c">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2202.0" Y="1238.0" GraphRef="e00eb" RelX="0.0" RelY="-1.0"/>
+      <Point X="2114.0463251670376" Y="1144.0" GraphRef="e3d50" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e3106">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="2153.4" Y="1144.0" GraphRef="d7409" RelX="1.0" RelY="0.0"/>
+      <Point X="2262.0" Y="1226.0" GraphRef="f3455" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="df70e">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2152.0" Y="1168.0" GraphRef="ffa53" RelX="0.0" RelY="-1.0"/>
+      <Point X="2104.0" Y="1153.381737193764" GraphRef="dd33b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d0cbe">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2106.0" Y="1238.0" GraphRef="a2f74" RelX="0.0" RelY="-1.0"/>
+      <Point X="2089.5269487750556" Y="1226.0" GraphRef="d42ac" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ba46b">
+    <Comment Source="KeggConverter">rn:R00471</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2202.0" Y="1238.0" GraphRef="e00eb" RelX="0.0" RelY="-1.0"/>
+      <Point X="2114.0463251670376" Y="1144.0" GraphRef="ab2a5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d7ca5">
+    <Comment Source="KeggConverter">rn:R00563</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1588.0" Y="518.0" GraphRef="d3b3f" RelX="0.0" RelY="-1.0"/>
+      <Point X="1573.3919239904988" Y="562.0" GraphRef="ad9c0" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ac29e">
+    <Comment Source="KeggConverter">rn:R00562</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1800.0" Y="518.0" GraphRef="b56dd" RelX="0.0" RelY="-1.0"/>
+      <Point X="1796.0" Y="564.9745520526196" GraphRef="b333f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fe989">
+    <Comment Source="KeggConverter">rn:R00554</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2046.0" Y="518.0" GraphRef="febd6" RelX="0.0" RelY="-1.0"/>
+      <Point X="2044.0" Y="571.3484533808744" GraphRef="cf45b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f1b45">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="1869.0" Y="336.0" GraphRef="c9053" RelX="-1.0" RelY="0.0"/>
+      <Point X="1796.0" Y="376.0" GraphRef="ea6ac" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e9912">
+    <Comment Source="KeggConverter">rn:R01566</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1796.0" Y="286.0" GraphRef="f7bd9" RelX="0.0" RelY="-1.0"/>
+      <Point X="1796.0" Y="289.8180513188587" GraphRef="c2fa9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fd4f6">
+    <Comment Source="KeggConverter">rn:R01563</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1916.0" Y="378.0" GraphRef="eb918" RelX="0.0" RelY="-1.0"/>
+      <Point X="1916.0" Y="386.0" GraphRef="c3485" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b05eb">
+    <Comment Source="KeggConverter">rn:R03187</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2194.0" Y="348.0" GraphRef="c8b12" RelX="0.0" RelY="-1.0"/>
+      <Point X="2194.0" Y="386.0" GraphRef="c661b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f3792">
+    <Comment Source="KeggConverter">rn:R02922</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2340.0" Y="284.0" GraphRef="a6fce" RelX="0.0" RelY="-1.0"/>
+      <Point X="2290.0" Y="294.0" GraphRef="ed05c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c970e">
+    <Comment Source="KeggConverter">rn:R02922</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2240.0" Y="284.0" GraphRef="c19a0" RelX="0.0" RelY="-1.0"/>
+      <Point X="2290.0" Y="294.0" GraphRef="d4b04" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bfe51">
+    <Comment Source="KeggConverter">rn:R08197</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2668.0" Y="630.0" GraphRef="a8b02" RelX="0.0" RelY="-1.0"/>
+      <Point X="2670.0" Y="783.8168980563271" GraphRef="cd010" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f42d8">
+    <Comment Source="KeggConverter">rn:R03178</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2670.0" Y="1218.0" GraphRef="e54a7" RelX="0.0" RelY="-1.0"/>
+      <Point X="2670.0" Y="1228.0" GraphRef="e600b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ce113">
+    <Comment Source="KeggConverter">rn:R03177</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2670.0" Y="1728.0" GraphRef="c048e" RelX="0.0" RelY="-1.0"/>
+      <Point X="2670.0" Y="1738.0" GraphRef="badf5" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b2b6a">
+    <Comment Source="KeggConverter">rn:R01990</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2046.0" Y="2116.0" GraphRef="c2b4c" RelX="0.0" RelY="-1.0"/>
+      <Point X="2046.0" Y="2118.0" GraphRef="d2432" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a8153">
+    <Comment Source="KeggConverter">rn:R03180</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2782.0" Y="1728.0" GraphRef="e2411" RelX="0.0" RelY="-1.0"/>
+      <Point X="2670.0" Y="1669.6283067597624" GraphRef="ac396" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ff967">
+    <Comment Source="KeggConverter">rn:R00559</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2780.0" Y="630.0" GraphRef="f1a5e" RelX="0.0" RelY="-1.0"/>
+      <Point X="2780.0" Y="801.4452779079322" GraphRef="bf3eb" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a2295">
+    <Comment Source="KeggConverter">rn:R01416</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2378.0" Y="1474.0" GraphRef="e1d8d" RelX="0.0" RelY="-1.0"/>
+      <Point X="2401.2441920495608" Y="1482.0" GraphRef="e9168" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f41ab">
+    <Comment Source="KeggConverter">rn:R01152</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2046.0" Y="1474.0" GraphRef="d2fd5" RelX="0.0" RelY="-1.0"/>
+      <Point X="2107.8415478039824" Y="1552.0" GraphRef="c379c" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="febac">
+    <Comment Source="KeggConverter">rn:R00832</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2374.0" Y="630.0" GraphRef="f9a40" RelX="0.0" RelY="-1.0"/>
+      <Point X="2380.0" Y="647.444744791812" GraphRef="d40f2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d9eb6">
+    <Comment Source="KeggConverter">rn:R04189</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2046.0" Y="1398.0" GraphRef="c5f0b" RelX="0.0" RelY="-1.0"/>
+      <Point X="2046.0" Y="1406.0" GraphRef="c1c78" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b5f52">
+    <Comment Source="KeggConverter">rn:R04217</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1656.0" Y="1396.0" GraphRef="d1204" RelX="0.0" RelY="-1.0"/>
+      <Point X="1656.0" Y="1406.0" GraphRef="a4ed9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f46b1">
+    <Comment Source="KeggConverter">rn:R05049</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1244.0" Y="1396.0" GraphRef="e1be8" RelX="0.0" RelY="-1.0"/>
+      <Point X="1244.0" Y="1406.0" GraphRef="df66b" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d0dbf">
+    <Comment Source="KeggConverter">rn:R00411</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="452.0" Y="1396.0" GraphRef="c129f" RelX="0.0" RelY="-1.0"/>
+      <Point X="410.6714797729494" Y="1406.0" GraphRef="cfae2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b9266">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="934.0" Y="1552.0" GraphRef="c83ab" RelX="-1.0" RelY="0.0"/>
+      <Point X="239.0" Y="1580.0" GraphRef="def2d" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fbf4b">
+    <Comment Source="KeggConverter">rn:R07414</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="366.0" Y="1594.0" GraphRef="ed284" RelX="0.0" RelY="-1.0"/>
+      <Point X="364.0" Y="1620.832843248134" GraphRef="c4594" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a2230">
+    <Comment Source="KeggConverter">rn:R07415</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="366.0" Y="1728.0" GraphRef="e48ed" RelX="0.0" RelY="-1.0"/>
+      <Point X="364.0" Y="1738.0" GraphRef="fe2be" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e124d">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="207.0" Y="1676.0" GraphRef="d712d" RelX="1.0" RelY="0.0"/>
+      <Point X="938.0" Y="2118.0" GraphRef="a8e61" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d873e">
+    <Comment Source="KeggConverter">rn:R07419</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="366.0" Y="1974.0" GraphRef="bc6b0" RelX="0.0" RelY="-1.0"/>
+      <Point X="364.0" Y="1942.0" GraphRef="f2ce7" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f4e31">
+    <Comment Source="KeggConverter">rn:R01151</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="728.0" Y="1728.0" GraphRef="ab9e1" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1737.578947368421" GraphRef="ade9f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b0ef1">
+    <Comment Source="KeggConverter">rn:R01151</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="1820.0" GraphRef="a9c09" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1839.2631578947369" GraphRef="d0367" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e67e0">
+    <Comment Source="KeggConverter">rn:R01155</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="924.0" Y="1858.0" GraphRef="ffc36" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1876.3610108303249" GraphRef="eac9d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a334f">
+    <Comment Source="KeggConverter">rn:R01155</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="828.0" Y="1728.0" GraphRef="a1aae" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1732.5559566787003" GraphRef="ced25" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fea18">
+    <Comment Source="KeggConverter">rn:R08714</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1024.0" Y="1858.0" GraphRef="ce51c" RelX="0.0" RelY="-1.0"/>
+      <Point X="974.0" Y="1868.0" GraphRef="c7e12" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e1836">
+    <Comment Source="KeggConverter">rn:R01155</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="924.0" Y="1858.0" GraphRef="ffc36" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1876.3610108303249" GraphRef="d9753" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c2442">
+    <Comment Source="KeggConverter">rn:R01155</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="828.0" Y="1728.0" GraphRef="a1aae" RelX="0.0" RelY="-1.0"/>
+      <Point X="914.0" Y="1732.5559566787003" GraphRef="ec3ab" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b8f89">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1024.0" Y="2012.0" GraphRef="c8f9a" RelX="0.0" RelY="-1.0"/>
+      <Point X="978.0" Y="2021.113303351226" GraphRef="b6b54" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="b881b">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="924.0" Y="2012.0" GraphRef="d264b" RelX="0.0" RelY="-1.0"/>
+      <Point X="978.0" Y="2018.6470332221095" GraphRef="fabbe" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c9586">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="1926.0" GraphRef="a0820" RelX="0.0" RelY="-1.0"/>
+      <Point X="978.0" Y="1980.9870883505005" GraphRef="a7866" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fce56">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1024.0" Y="2012.0" GraphRef="c8f9a" RelX="0.0" RelY="-1.0"/>
+      <Point X="978.0" Y="2021.113303351226" GraphRef="cea6d" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e84af">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="924.0" Y="2012.0" GraphRef="d264b" RelX="0.0" RelY="-1.0"/>
+      <Point X="978.0" Y="2018.6470332221095" GraphRef="d42d0" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fb71f">
+    <Comment Source="KeggConverter">rn:R02549</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="1926.0" GraphRef="a0820" RelX="0.0" RelY="-1.0"/>
+      <Point X="978.0" Y="1980.9870883505005" GraphRef="f42fc" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e299a">
+    <Comment Source="KeggConverter">rn:R01156</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="598.0" Y="1594.0" GraphRef="a890c" RelX="0.0" RelY="-1.0"/>
+      <Point X="548.0" Y="1582.9336048070716" GraphRef="d2b4e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ba40d">
+    <Comment Source="KeggConverter">rn:R01987</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="550.0" Y="1974.0" GraphRef="a52bc" RelX="0.0" RelY="-1.0"/>
+      <Point X="548.0" Y="1967.2646551159082" GraphRef="b00b8" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="da5b8">
+    <Comment Source="KeggConverter">rn:R00774</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1462.0" Y="658.0" GraphRef="ca35d" RelX="0.0" RelY="-1.0"/>
+      <Point X="1462.0" Y="694.0" GraphRef="cff33" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a2fdc">
+    <Comment Source="KeggConverter">rn:R00005</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1692.0" Y="658.0" GraphRef="eee24" RelX="0.0" RelY="-1.0"/>
+      <Point X="1692.0" Y="694.0" GraphRef="ed348" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f1c51">
+    <Comment Source="KeggConverter">rn:R00131</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1586.0" Y="694.0" GraphRef="bd1c5" RelX="0.0" RelY="-1.0"/>
+      <Point X="1586.0" Y="694.0" GraphRef="b0304" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c2fc9">
+    <Comment Source="KeggConverter">rn:R00552</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1102.0" Y="414.0" GraphRef="e6a13" RelX="0.0" RelY="-1.0"/>
+      <Point X="1103.0996996328847" Y="450.0" GraphRef="cbe81" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c6993">
+    <Comment Source="KeggConverter">rn:R00671</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1358.0" Y="808.0" GraphRef="bcfe1" RelX="0.0" RelY="-1.0"/>
+      <Point X="1358.0" Y="832.3808008895339" GraphRef="dccaf" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f8837">
+    <Comment Source="KeggConverter">rn:R00243</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="188.0" Y="706.0" GraphRef="aa1c0" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="718.0803388633956" GraphRef="dbebf" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c7575">
+    <Comment Source="KeggConverter">rn:R00243</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="140.0" Y="716.0" GraphRef="b5ff8" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="745.722837980939" GraphRef="ec72f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d0d22">
+    <Comment Source="KeggConverter">rn:R00248</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="240.0" Y="744.0" GraphRef="e7a56" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="757.5964701729615" GraphRef="c55b4" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ae271">
+    <Comment Source="KeggConverter">rn:R00248</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="140.0" Y="716.0" GraphRef="b5ff8" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="745.722837980939" GraphRef="d9dfe" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a4213">
+    <Comment Source="KeggConverter">rn:R01992</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1104.0" Y="2090.0" GraphRef="aa5c5" RelX="0.0" RelY="-1.0"/>
+      <Point X="1067.357903553907" Y="2056.0" GraphRef="f9616" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f15b7">
+    <Comment Source="KeggConverter">rn:R01884</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2034.0" Y="128.0" GraphRef="a54c7" RelX="0.0" RelY="-1.0"/>
+      <Point X="2038.0303371222408" Y="202.0" GraphRef="d0087" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ba98a">
+    <Comment Source="KeggConverter">rn:R01915</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1298.0" Y="1922.0" GraphRef="e7d20" RelX="0.0" RelY="-1.0"/>
+      <Point X="1298.0" Y="1932.0" GraphRef="d07fa" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f9fcf">
+    <Comment Source="KeggConverter">rn:R02575</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1462.0" Y="224.0" GraphRef="f7733" RelX="0.0" RelY="-1.0"/>
+      <Point X="1462.0" Y="232.0" GraphRef="e1870" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="fdae6">
+    <Comment Source="KeggConverter">rn:R03296</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1244.0" Y="1218.0" GraphRef="fcd2e" RelX="0.0" RelY="-1.0"/>
+      <Point X="1244.0" Y="1226.0" GraphRef="feab9" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ddfd7">
+    <Comment Source="KeggConverter">rn:R02280</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="626.0" Y="1216.0" GraphRef="cc302" RelX="0.0" RelY="-1.0"/>
+      <Point X="626.0" Y="1226.0" GraphRef="cff0f" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a8505">
+    <Comment Source="KeggConverter">rn:R02922</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2340.0" Y="284.0" GraphRef="a6fce" RelX="0.0" RelY="-1.0"/>
+      <Point X="2290.0" Y="294.0" GraphRef="a9652" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d1d9b">
+    <Comment Source="KeggConverter">rn:R02922</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2240.0" Y="284.0" GraphRef="c19a0" RelX="0.0" RelY="-1.0"/>
+      <Point X="2290.0" Y="294.0" GraphRef="a3539" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ac0a7">
+    <Comment Source="KeggConverter">rn:R09081</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1358.0" Y="1842.0" GraphRef="bc7b2" RelX="0.0" RelY="-1.0"/>
+      <Point X="1358.0" Y="1841.7201672563526" GraphRef="f535e" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="cc071">
+    <Comment Source="KeggConverter">rn:R09082</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1230.0" Y="1840.0" GraphRef="ac81b" RelX="0.0" RelY="-1.0"/>
+      <Point X="1230.0" Y="1850.0" GraphRef="b6f07" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="de57f">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="404.0" Y="578.0" GraphRef="cd5ac" RelX="1.0" RelY="0.0"/>
+      <Point X="709.0" Y="618.4" GraphRef="a0814" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f7690">
+    <Comment Source="KeggConverter">rn:R07245</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="714.0" Y="518.0" GraphRef="da3d9" RelX="0.0" RelY="-1.0"/>
+      <Point X="710.0" Y="528.0" GraphRef="a0640" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="a1e89">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="436.0" Y="542.0" GraphRef="b709c" RelX="-1.0" RelY="0.0"/>
+      <Point X="421.0" Y="548.0" GraphRef="b616f" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="da7d8">
+    <Comment Source="KeggConverter">rn:R08937</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="550.0" Y="442.0" GraphRef="d7eae" RelX="0.0" RelY="-1.0"/>
+      <Point X="548.0" Y="452.50918751383665" GraphRef="fa627" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f8901">
+    <Comment Source="KeggConverter">rn:R09107</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="770.0" Y="442.0" GraphRef="da654" RelX="0.0" RelY="-1.0"/>
+      <Point X="770.0" Y="450.0" GraphRef="c49e7" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e811e">
+    <Comment Source="KeggConverter">rn:R00256</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="234.0" Y="426.0" GraphRef="f383f" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="433.47342140850935" GraphRef="f00f2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ed61b">
+    <Comment Source="KeggConverter">rn:R00256</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="134.0" Y="398.0" GraphRef="f2156" RelX="0.0" RelY="-1.0"/>
+      <Point X="190.0" Y="420.02496619161553" GraphRef="e7b27" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="c2365">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="1014.0" Y="1552.0" GraphRef="c83ab" RelX="1.0" RelY="0.0"/>
+      <Point X="2241.0" Y="1692.4" GraphRef="c1534" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="af12d">
+    <Comment Source="KeggConverter">rn:R09256</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2176.0" Y="1728.0" GraphRef="baea1" RelX="0.0" RelY="-1.0"/>
+      <Point X="2242.0" Y="1787.1179134214817" GraphRef="de7e2" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="bdffc">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="2434.0" Y="1546.0" GraphRef="ec508" RelX="-1.0" RelY="0.0"/>
+      <Point X="2322.2" Y="1702.0" GraphRef="b5a07" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="f6c6e">
+    <Comment Source="KeggConverter">rn:R01617</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2430.0" Y="1728.0" GraphRef="d7d23" RelX="0.0" RelY="-1.0"/>
+      <Point X="2388.0" Y="1768.5958145260565" GraphRef="ee6c3" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="e44a0">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="974.0" Y="1562.0" GraphRef="c83ab" RelX="0.0" RelY="1.0"/>
+      <Point X="2239.0" Y="1945.2" GraphRef="ae00b" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d1e2e">
+    <Comment Source="KeggConverter">rn:R09257</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2124.0" Y="1974.0" GraphRef="ee416" RelX="0.0" RelY="-1.0"/>
+      <Point X="2227.245283018868" Y="2052.0" GraphRef="ece54" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="d0eef">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="2434.0" Y="1546.0" GraphRef="ec508" RelX="-1.0" RelY="0.0"/>
+      <Point X="2318.0" Y="1955.0" GraphRef="a92a2" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+  </Line>
+  <Line GraphId="ff76b">
+    <Comment Source="KeggConverter">rn:R09255</Comment>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="2484.0" Y="1974.0" GraphRef="e2219" RelX="0.0" RelY="-1.0"/>
+      <Point X="2382.0" Y="2044.0" GraphRef="c7547" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+  </Line>
+  <Group GroupId="c91b0" GraphId="f2156" TextLabel="hsa:27165 hsa:2744"/>
+  <Group GroupId="f0547" GraphId="fc0ca" TextLabel="hsa:383 hsa:384"/>
+  <Group GroupId="ad209" GraphId="ac3eb" TextLabel="ko:K00930 ko:K12659"/>
+  <Group GroupId="c43df" GraphId="cc198" TextLabel="ko:K00145 ko:K12659"/>
+  <Group GroupId="e3d4e" GraphId="a0eb9" TextLabel="ko:K00818 ko:K00821 ko:K05830"/>
+  <Group GroupId="f550e" GraphId="c138f" TextLabel="ko:K00642 ko:K00620"/>
+  <Group GroupId="ede7b" GraphId="b2a82" TextLabel="hsa:29920 hsa:5831 hsa:65263"/>
+  <Group GroupId="a625f" GraphId="acd22" TextLabel="hsa:283208 hsa:5033 hsa:8974"/>
+  <Group GroupId="a6522" GraphId="a10ed" TextLabel="ko:K10793 ko:K10794 ko:K10795 ko:K10796"/>
+  <Group GroupId="c3410" GraphId="ea163" TextLabel="hsa:29920 hsa:5831 hsa:65263"/>
+  <Group GroupId="f4129" GraphId="ba77a" TextLabel="hsa:2805 hsa:2806"/>
+  <Group GroupId="cf10c" GraphId="ffa53" TextLabel="ko:K01571 ko:K01572 ko:K01573"/>
+  <Group GroupId="cda63" GraphId="f11b8" TextLabel="hsa:4842 hsa:4843 hsa:4846"/>
+  <Group GroupId="dc065" GraphId="f820e" TextLabel="hsa:4842 hsa:4843 hsa:4846"/>
+  <Group GroupId="baa1a" GraphId="d948e" TextLabel="hsa:1152 hsa:1158 hsa:1159 hsa:1160 hsa:548596"/>
+  <Group GroupId="fcafa" GraphId="c8b12" TextLabel="ko:K01473 ko:K01474"/>
+  <Group GroupId="c98ae" GraphId="a0820" TextLabel="hsa:217 hsa:219 hsa:223 hsa:224 hsa:501"/>
+  <Group GroupId="d0fab" GraphId="aa402" TextLabel="hsa:112483 hsa:6303"/>
+  <Group GroupId="ddb9f" GraphId="effc9" TextLabel="hsa:4128 hsa:4129"/>
+  <Group GroupId="ec0a2" GraphId="ef88e" TextLabel="hsa:217 hsa:219 hsa:223 hsa:224 hsa:501"/>
+  <Group GroupId="aa81d" GraphId="ca35d" TextLabel="ko:K01941 ko:K14541"/>
+  <Group GroupId="b8470" GraphId="eee24" TextLabel="ko:K01457 ko:K14541"/>
+  <Group GroupId="fbcb1" GraphId="bd1c5" TextLabel="ko:K01427 ko:K01428 ko:K01429 ko:K01430 ko:K14048"/>
+  <Group GroupId="d1101" GraphId="b3104" TextLabel="hsa:4842 hsa:4843 hsa:4846"/>
+  <Group GroupId="cc649" GraphId="b5ff8" TextLabel="hsa:2746 hsa:2747"/>
+  <InfoBox CenterX="0.0" CenterY="0.0"/>
+</Pathway>
